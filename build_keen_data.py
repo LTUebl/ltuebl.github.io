@@ -1,0 +1,239 @@
+import json
+
+keen_cards = [
+    {
+        "id": 5823,
+        "title": "Biomedical Engineering Essential Skills",
+        "engagements": 4,
+        "category": "Core BME & Skills",
+        "featured": True,
+        "courses": "BME 1002 / Core BME Curricula",
+        "description": "Foundational technical competencies, problem formulation, and entrepreneurial curiosity mapped to biomedical engineering industry workflows and design constraints.",
+        "url": "https://engineeringunleashed.com/card/5823"
+    },
+    {
+        "id": 5797,
+        "title": "KNC2026 Workshop- Explainable AI for Educators: Strategies to Engage Student Use and Inspire an Entrepreneurial Mindset",
+        "engagements": 24,
+        "category": "AI & Innovation",
+        "featured": True,
+        "courses": "Faculty Workshop / All Engineering Disciplines",
+        "description": "Pedagogical strategies for integrating explainable AI, prompt engineering, and critical thinking into design workflows while instilling KEEN 3C mindset.",
+        "url": "https://engineeringunleashed.com/card/5797"
+    },
+    {
+        "id": 5209,
+        "title": "AI SCAMPERing through Brainstorming",
+        "engagements": 67,
+        "category": "AI & Innovation",
+        "featured": True,
+        "courses": "BME 3113 / Design Studios",
+        "description": "Harnessing generative AI as a collaborative thinking partner using the classic SCAMPER ideation framework to explore non-obvious solution spaces.",
+        "url": "https://engineeringunleashed.com/card/5209"
+    },
+    {
+        "id": 1449,
+        "title": "Building Interactive Wearable Technology Devices to Motivate Hands-on Experience with Biomechanics and Biomedical Engineering Design",
+        "engagements": 365,
+        "category": "Wearables & IoT",
+        "featured": True,
+        "courses": "BME 3113 Wearable Technology Design",
+        "description": "Pioneering hands-on wearable technology design module: students solder, calibrate, and program open-source sensor systems to address unmet clinical user needs.",
+        "url": "https://engineeringunleashed.com/card/1449"
+    },
+    {
+        "id": 684,
+        "title": "Hands-on activities for Prototyping and Ideation in Biomedical Engineering",
+        "engagements": 330,
+        "category": "Active Prototyping",
+        "featured": True,
+        "courses": "EGE 1001 / BME 1002",
+        "description": "Rapid physical prototyping, sketch modeling, and customer-discovery ideation exercises to build student agency and maker skills from day one.",
+        "url": "https://engineeringunleashed.com/card/684"
+    },
+    {
+        "id": 1047,
+        "title": "Active Learning Modules to Simulate Surgery in 'Engineering Applications in Orthopedics'",
+        "engagements": 158,
+        "category": "Surgical Simulation",
+        "featured": True,
+        "courses": "BME 5303 Engineering Applications in Orthopedics",
+        "description": "Authentic orthopedic surgical simulations where students experience bone drilling, screw insertion, implant stability, and surgical tactile feedback.",
+        "url": "https://engineeringunleashed.com/card/1047"
+    },
+    {
+        "id": 932,
+        "title": "Using Maker Projects to Spark Interest in STEM",
+        "engagements": 174,
+        "category": "Active Prototyping",
+        "featured": False,
+        "courses": "K-12 STEM Outreach & Summer Academies",
+        "description": "Engaging high school and prospective college students in hands-on engineering maker builds that connect personal interests to STEM careers.",
+        "url": "https://engineeringunleashed.com/card/932"
+    },
+    {
+        "id": 1715,
+        "title": "How to include EML in technical courses with 'Quantified Self' themed modules",
+        "engagements": 128,
+        "category": "Quantified Self (QS4EML)",
+        "featured": True,
+        "courses": "QS4EML Faculty Framework",
+        "description": "Comprehensive guide for instructors to embed Quantified Self modules into rigorous engineering courses to ignite Curiosity, Connections, and Value Creation.",
+        "url": "https://engineeringunleashed.com/card/1715"
+    },
+    {
+        "id": 1909,
+        "title": "QS4EML Course Modules for 'Bioinstrumentation'",
+        "engagements": 115,
+        "category": "Quantified Self (QS4EML)",
+        "featured": False,
+        "courses": "BME 3203 Bioinstrumentation",
+        "description": "Connecting physiological signal conditioning, amplifier circuits, and bio-potential electrodes to wearable consumer health ecosystems.",
+        "url": "https://engineeringunleashed.com/card/1909"
+    },
+    {
+        "id": 830,
+        "title": "QS4EML Course Module for 'Biomechanics'",
+        "engagements": 103,
+        "category": "Biomechanics & Sensors",
+        "featured": False,
+        "courses": "BME 3303 Biomechanics",
+        "description": "Kinematics and kinetics modules where students instrument their own athletic movements using smartphone IMUs and wearable load sensors.",
+        "url": "https://engineeringunleashed.com/card/830"
+    },
+    {
+        "id": 888,
+        "title": "QS4EML Course Module for 'Introduction to Biomedical Engineering'",
+        "engagements": 97,
+        "category": "Quantified Self (QS4EML)",
+        "featured": False,
+        "courses": "BME 1002 Introduction to BME",
+        "description": "Early exposure to patient health tracking, wearable metrics, and entrepreneurial problem formulation for first-year engineering students.",
+        "url": "https://engineeringunleashed.com/card/888"
+    },
+    {
+        "id": 1862,
+        "title": "QS4EML Course Module for 'Medical Device Design'",
+        "engagements": 95,
+        "category": "Core BME & Skills",
+        "featured": False,
+        "courses": "BME 4013 / Design Elective",
+        "description": "Translating regulatory pathways (510k, PMA), risk analysis, and customer empathy into medical device innovation.",
+        "url": "https://engineeringunleashed.com/card/1862"
+    },
+    {
+        "id": 895,
+        "title": "QS4EML Course Modules for 'Engineering in Orthopedics' elective",
+        "engagements": 76,
+        "category": "Surgical Simulation",
+        "featured": False,
+        "courses": "BME 5303 Engineering in Orthopedics",
+        "description": "Coupling mechanical joint replacement design with stakeholder discovery involving orthopedic surgeons, physical therapists, and patients.",
+        "url": "https://engineeringunleashed.com/card/895"
+    },
+    {
+        "id": 1106,
+        "title": "Reinforcing Technical Topics Through Hands-On EML Design Modules",
+        "engagements": 62,
+        "category": "Active Prototyping",
+        "featured": False,
+        "courses": "Cross-Curricular Engineering",
+        "description": "Pedagogical blueprints for reinforcing difficult theoretical mechanics concepts with tangible, rapid physical build iterations.",
+        "url": "https://engineeringunleashed.com/card/1106"
+    },
+    {
+        "id": 4628,
+        "title": "Reverse Engineering Module in Wearable Technology Design",
+        "engagements": 50,
+        "category": "Wearables & IoT",
+        "featured": False,
+        "courses": "BME 3113 Wearable Technology Design",
+        "description": "Teardown and commercial architecture analysis of smart rings, fitness trackers, and smart clothing to identify design compromises and value opportunities.",
+        "url": "https://engineeringunleashed.com/card/4628"
+    },
+    {
+        "id": 971,
+        "title": "Introduction to 'Internet of Things' technologies: Build your own survey kiosk project.",
+        "engagements": 45,
+        "category": "Wearables & IoT",
+        "featured": False,
+        "courses": "IoT / Microcontroller Laboratories",
+        "description": "Embedded connected microcontrollers creating physical feedback collection kiosks to gather real-world community survey metrics.",
+        "url": "https://engineeringunleashed.com/card/971"
+    },
+    {
+        "id": 688,
+        "title": "QS4EML Course Modules for 'BME Best Practices'",
+        "engagements": 39,
+        "category": "Core BME & Skills",
+        "featured": False,
+        "courses": "BME 3002 Biomedical Best Practices",
+        "description": "Professional engineering standards, ethical product lifecycle management, and entrepreneurial communication.",
+        "url": "https://engineeringunleashed.com/card/688"
+    },
+    {
+        "id": 4297,
+        "title": "Designing Stakeholder Value with the Sit-To-Stand (S2S) Movement",
+        "engagements": 9,
+        "category": "Biomechanics & Sensors",
+        "featured": False,
+        "courses": "BME 3303 Biomechanics",
+        "description": "Analyzing kinetic and kinematic demands of elderly sit-to-stand transitions to design low-cost ergonomic assistance interventions.",
+        "url": "https://engineeringunleashed.com/card/4297"
+    },
+    {
+        "id": 4618,
+        "title": "Using Smartphone Inertial Measurement Unit (IMU) Sensor Data",
+        "engagements": 6,
+        "category": "Biomechanics & Sensors",
+        "featured": False,
+        "courses": "BME 3301 Biomechanics Lab",
+        "description": "Democratizing motion analysis by utilizing ubiquitous smartphone accelerometers and gyroscopes for gait and jumping kinematics.",
+        "url": "https://engineeringunleashed.com/card/4618"
+    },
+    {
+        "id": 4605,
+        "title": "Grip Strength Data Analysis",
+        "engagements": 5,
+        "category": "Biomechanics & Sensors",
+        "featured": False,
+        "courses": "BME 3301 Biomechanics Lab",
+        "description": "Dynamometer and force sensor data collection analyzing human hand grip fatigue, neuromuscular recruitment, and rehabilitation metrics.",
+        "url": "https://engineeringunleashed.com/card/4605"
+    },
+    {
+        "id": 5290,
+        "title": "Engineering for Dignity: Redesigning Load-Bearing Devices for Older Adults",
+        "engagements": 5,
+        "category": "Active Prototyping",
+        "featured": False,
+        "courses": "BME 4013 Capstone / Design Studio",
+        "description": "Human-centered design focusing on stigma-free, empowering assistive mobility devices for aging populations.",
+        "url": "https://engineeringunleashed.com/card/5290"
+    },
+    {
+        "id": 4626,
+        "title": "Biomechanics Swing Sensor Entrepreneurial Design Project (revised)",
+        "engagements": 2,
+        "category": "Biomechanics & Sensors",
+        "featured": False,
+        "courses": "BME 3303 Biomechanics",
+        "description": "Students develop instrumented athletic swing sensors that provide actionable biomechanical feedback for coaches and recreational athletes.",
+        "url": "https://engineeringunleashed.com/card/4626"
+    },
+    {
+        "id": 4619,
+        "title": "Video Analysis for Biomechanics of Human Movement",
+        "engagements": 2,
+        "category": "Biomechanics & Sensors",
+        "featured": False,
+        "courses": "BME 3301 Biomechanics Lab",
+        "description": "Kinovea and high-speed video tracking workflow to teach 2D angular kinematics, projectile motion, and joint velocities.",
+        "url": "https://engineeringunleashed.com/card/4619"
+    }
+]
+
+with open('keen_cards_data.json', 'w', encoding='utf-8') as f:
+    json.dump(keen_cards, f, indent=2)
+
+print('Saved keen_cards_data.json with', len(keen_cards), 'cards!')

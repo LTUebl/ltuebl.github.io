@@ -1,0 +1,8 @@
+# Video files exceeding GitHub file limits
+*.mp4
+*.mov
+
+# Temporary & Python caches
+__pycache__/
+*.pyc
+*.tmp

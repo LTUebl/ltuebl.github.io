@@ -1,0 +1,340 @@
+{
+  "stats": {
+    "total_citations": 2890,
+    "h_index": 25,
+    "peer_reviewed_count": 44,
+    "books_count": 2,
+    "scholar_url": "http://scholar.google.com/citations?user=3SbYkskAAAAJ",
+    "researchgate_url": "https://www.researchgate.net/profile/Eric-Meyer-9",
+    "orcid_url": "https://orcid.org/0000-0002-7477-6050",
+    "linkedin_url": "https://www.linkedin.com/in/eric-meyer-949a90b/"
+  },
+  "books": [
+    {
+      "id": "B1",
+      "title": "Biomechanical response of the knee in sports injury scenarios",
+      "citation": "Meyer EG, Haut RC. Biomechanical response of the knee in sports injury scenarios. Chapter in: Knee Joints: Kinematics, Injury Types and Treatment Options. Editor: Mascarenhas R. Nova Science Publishers, 2012. ISBN: 978-1-61942-268-1.",
+      "year": "2012",
+      "type": "Book Chapter",
+      "link": "https://www.amazon.com/Knee-Concepts-Kinematics-Treatment-Functions/dp/1619422689"
+    },
+    {
+      "id": "B2",
+      "title": "Disruptive Biotechnology: Past and Future Promises of Biomedical Engineering and Wearables",
+      "citation": "Meyer EG. Disruptive Biotechnology: Past and Future Promises of Biomedical Engineering and Wearables. LTU Research Day Presidential Colloquium Booklet. 2023. DOI: 10.13140/RG.2.2.21335.24484.",
+      "year": "2023",
+      "type": "Colloquium Monograph",
+      "link": "http://dx.doi.org/10.13140/RG.2.2.21335.24484"
+    }
+  ],
+  "publications": [
+    {
+      "number": 44,
+      "citation": "Peponis J, Meyer EG. The Fifth Element of Biomedical Engineering is Innovation: A Quintessential Design Studio Course Focusing on the \"Wearable Technology\" Ecosystem. ASEE Annual Conf Proc. 2025.",
+      "year": "2025",
+      "citations": 0,
+      "link": "https://nemo.asee.org/public/conferences/365/papers/49415/view"
+    },
+    {
+      "number": 43,
+      "citation": "Delogu F, Nelson M, Timmons S, Weinstein M, Meyer EG, et al. A Systemic Transformation of an Arts and Sciences Curriculum to Nurture Inclusive Excellence of All Students through Course -Based Research Experiences. Frontiers in Education 8;10.3389/feduc.2023.1142572:2023. *Citations = 7",
+      "year": "2023",
+      "citations": 7,
+      "link": "https://doi.org/10.3389/feduc.2023.1142572"
+    },
+    {
+      "number": 42,
+      "citation": "Rossman S, Meyer EG, Rundell S. Development of a Finite Element Lumbar Spine Model to Predict Intervertebral Disc Herniation Mechanics. Comp Methods Biomech 25(1);1-13:2022.",
+      "year": "2022",
+      "citations": 0,
+      "link": "https://doi.org/10.1080/10255842.2021.1922677"
+    },
+    {
+      "number": 41,
+      "citation": "Lewis L, Jaussen P, Scrivener M, Shargel D, Meyer E, Delogu F, Shamir L, Collins S. Frankenstein 200 Years Later: Chemistry, Literature and Pop Culture. J Chem Education 24;1-4:2019.",
+      "year": "2019",
+      "citations": 0,
+      "link": "http://chemeducator.org/bibs/0024001/24190162.html"
+    },
+    {
+      "number": 40,
+      "citation": "Huwais S, Meyer EG. A Novel Osseous Densification Approach in Implant Osteotomy Preparation to Increase Biomechanical Primary Stability, Bone Mineral Density and Bone to Implant Contact . International J Oral & Maxillofacial Implants 2017;32:27-36. *Citations = 429",
+      "year": "2017",
+      "citations": 429,
+      "link": "http://www.quintpub.com/journals/omi/abstract.php?article_id=16957#.ZFP9LXbMJD-"
+    },
+    {
+      "number": 39,
+      "citation": "Shimokochi Y, Ambegaonkar JP, Meyer EG. Changing sagittal-plane landing styles modulates impact and tibiofemoral force magnitude and directions relative to the tibia . J Athletic Training 2016 doi:",
+      "year": "2016",
+      "citations": 0,
+      "link": "https://doi.org/10.4085/1062-6050-51.10.15"
+    },
+    {
+      "number": 38,
+      "citation": "Meyer EG, Ulrey BL. Sensing Angular Kinematics by Embedding an Open Hardware Design Project into a Required Biomechanics Course. ASEE Annual Conf Proc. 2016.",
+      "year": "2016",
+      "citations": 0,
+      "link": "https://peer.asee.org/sensing-angular-kinematics-by-embedding-an-open-source-electronics-design-project-into-a-required-biomechanics-course.pdf"
+    },
+    {
+      "number": 37,
+      "citation": "Rust M, Nasir M, Meyer EG . Using Quantified Self as a Learning Tool to Engage Students in Entrepreneurially Minded Learning and Engineering Design. ASEE Annual Conf Proc. 2016.",
+      "year": "2016",
+      "citations": 0,
+      "link": "https://ltu-capture-cms.s3.us-east-2.amazonaws.com/Faculty%20and%20Staff/using-quantified-self-as-a-learning-tool-to-engage-students-in-entrepreneurially-minded-learning-and-engineering-design.pdf"
+    },
+    {
+      "number": 36,
+      "citation": "Nasir M, Weaver BT, Meyer EG. Project-based Learning in a Forensic Engineering Course. ASEE Annual Conf Proc. 2016.",
+      "year": "2016",
+      "citations": 0,
+      "link": "https://ltu-capture-cms.s3.us-east-2.amazonaws.com/Faculty%20and%20Staff/project-based-learning-in-a-forensic-engineering-course.pdf"
+    },
+    {
+      "number": 35,
+      "citation": "Meyer EG, Nasir M. Fostering the entrepreneurial mindset through the development of multidisciplinary learning modules based on the \"Quantified Self\" social movement . ASEE Annual Conf Proc. 2015 . *Citations = 11",
+      "year": "2015",
+      "citations": 11,
+      "link": "https://ltu-capture-cms.s3.us-east-2.amazonaws.com/Faculty%20and%20Staff/fostering-the-entrepreneurial-mindset-through-the-development-of-multidisciplinary-learning-modules-based-on-the-quantified-self-social-movement.pdf"
+    },
+    {
+      "number": 34,
+      "citation": "Nasir M, Seta J, Meyer EG. Introducing high school students to biomedical engineering through summer camps. ASEE Annual Conf Proc 2014. *Citations = 14",
+      "year": "2014",
+      "citations": 14,
+      "link": "https://ltu-capture-cms.s3.us-east-2.amazonaws.com/Faculty%20and%20Staff/introducing-high-school-students-to-biomedical-engineering-through-summer-camps.pdf"
+    },
+    {
+      "number": 33,
+      "citation": "Gerhart A, Meyer EG. Combining discipline-specific \"Introduction to Engineering\" courses into a single multi- discipline course to foster the entrepreneurial mindset with entrepreneurially minded learning. ASEE Annual Conf Proc 2014 *Citations = 45",
+      "year": "2014",
+      "citations": 45,
+      "link": "https://www.researchgate.net/publication/264763456_Combining_Discipline-specific_Introduction_to_Engineering_Courses_into_a_Single_Multi-discipline_Course_to_Foster_the_Entrepreneurial_Mindset_with_Entrepreneurially_Minded_Learning"
+    },
+    {
+      "number": 32,
+      "citation": "Rundell SA, Weaver B, Guiang A, Meyer EG. Characterization of occupant lower extremity behaviour during moderate-to-high speed rear impacts. SAE Technical Paper. 2013-01-0222.",
+      "year": "2013",
+      "citations": 0,
+      "link": "https://www.sae.org/publications/technical-papers/content/2013-01-0222/?src=2019-01-1031"
+    },
+    {
+      "number": 31,
+      "citation": "Button K, Wei F, Meyer EG, Haut RC. Specimen-specific computational models of ankle sprain produced in a laboratory setting. J Biomech Eng. 2013;135(4):041001. *Citations = 17",
+      "year": "2013",
+      "citations": 17,
+      "link": "https://doi.org/10.1115/1.4023381"
+    },
+    {
+      "number": 30,
+      "citation": "Shimokochi Y, Ambeganonkar JP, Lee SY, Meyer EG, Shultz SJ. Sagittal plane body positions influence risk of non-contact anterior cruciate ligament injuries during a single-leg drop landing. Knee Surg Sports Trauma Arthroscopy. 2012;21(4):888-897. *Citations = 208",
+      "year": "2012",
+      "citations": 208,
+      "link": "https://link.springer.com/article/10.1007/s00167-012-2011-9"
+    },
+    {
+      "number": 29,
+      "citation": "Meyer EG, Wei F, Button K, Haut RC. Determination of ankle ligament strain using a rigid body computational model for sports injury scenarios. IRCOBI Conf. Proc. 2012;36:277-288. *Citations = 6",
+      "year": "2012",
+      "citations": 6,
+      "link": "https://www.researchgate.net/publication/233641866_Determination_of_ankle_ligament_strain_using_a_rigid_body_computational_model_for_sports_injury_scenarios"
+    },
+    {
+      "number": 28,
+      "citation": "Wei F, Post JM, Braman JE, Meyer EG, Powell JW, Haut RC. Eversion during external rotation of the human cadaver foot produces high ankle sprains. J Orthop Res. 2012;30(9):1423-1429. *Citations = 41",
+      "year": "2012",
+      "citations": 41,
+      "link": "https://doi.org/10.1115/1.4005695"
+    },
+    {
+      "number": 27,
+      "citation": "Wei F, Meyer EG, Braman JE, Powell JW, Haut RC. Rotational stiffness of football shoes influences talus motion during external rotation of the foot. J Biomech Eng. 2012; 134(041002): 1-7. *Citations = 16",
+      "year": "2012",
+      "citations": 16,
+      "link": "https://doi.org/10.1115/1.4005694"
+    },
+    {
+      "number": 26,
+      "citation": "Meyer EG, Buckley CT, Kelly DJ. The influence of construct scale on the functional properties of cartilaginous tissues engineered using bone -marrow derived mesenchymal stem c ells. Tissue Eng. 2012; 18(3 -4): 382-396. *Citations = 42",
+      "year": "2012",
+      "citations": 42,
+      "link": "https://doi.org/10.1089/ten.tea.2011.0145"
+    },
+    {
+      "number": 25,
+      "citation": "Vinardell T, Rolfe RA, Buckley CT, Meyer EG, Murphy P, Kelly DJ. Hydrostatic pressure and TGF-\u03b23 interact to regulate the induction and maintenance of a chondrogenic phenotype in joint tissue derived stem cells. European Cells & Materials J. 2012; 23: 121-134. *Citations = 102",
+      "year": "2012",
+      "citations": 102,
+      "link": "https://ltu-capture-cms.s3.us-east-2.amazonaws.com/Faculty%20and%20Staff/v023a09.pdf"
+    },
+    {
+      "number": 24,
+      "citation": "Meyer EG, Buckley CT, Steward AJ, Kelly DJ. The effect of cyclic hydrostatic pressure on the functional development of cartilaginous tissues engineered using bone marrow derived mesenchymal stem cells. J Mech Behav Biomed Mats. 2011; 4(7): 1257-1265. *Citations = 98",
+      "year": "2011",
+      "citations": 98,
+      "link": "https://doi.org/10.1016/j.jmbbm.2011.04.012"
+    },
+    {
+      "number": 23,
+      "citation": "Haugh MG, Meyer EG, Thorpe SD , Vinardell T, Duffy GP, Kelly DJ. Temporal and spatial changes in cartilage-matrix specific gene expression in mesenchymal stem cells in response to dynamic compression. Tissue Eng. 2011; 17(23-24): 3085-3093. *Citations = 82",
+      "year": "2011",
+      "citations": 82,
+      "link": "https://repository.rcsi.com/articles/journal_contribution/Temporal_and_spatial_changes_in_cartilage-matrix-specific_gene_expression_in_mesenchymal_stem_cells_in_response_to_dynamic_compression_/10765859/files/19278263.pdf"
+    },
+    {
+      "number": 22,
+      "citation": "Meyer EG, Baumer TG, Haut RC. Pure passive hyperextension of the human cadaver knee generates simultaneous bi-cruciate ligament rupture. J Biomech Eng. 2011; 133(011012): 1-5. *Citations = 29",
+      "year": "2011",
+      "citations": 29,
+      "link": "https://doi.org/10.1115/1.4003135"
+    },
+    {
+      "number": 21,
+      "citation": "Meyer EG, Buckley CT, Thorpe SD, Kelly DJ. Low oxygen tension is a more potent promoter of chondrogenic differentiation than dynamic compression. J Biomech. 2010; 43: 2516-2523. *Citations = 122",
+      "year": "2010",
+      "citations": 122,
+      "link": "https://doi.org/10.1016/j.jbiomech.2010.05.020"
+    },
+    {
+      "number": 20,
+      "citation": "Wei F, Villwock MR, Meyer EG, Powell JW, Haut RC. A biomechanical investigation of ankle injury under external foot rotation in the human cadaver. J Biomech Eng. 2010; 132(091001): 1-4. *Citations = 60",
+      "year": "2010",
+      "citations": 60,
+      "link": "https://doi.org/10.1016/j.jbiomech.2010.05.025"
+    },
+    {
+      "number": 19,
+      "citation": "Meyer EG, Villwock MR, Powell JW, Fouty AJ, Haut RC. Rotational injuries of the lower extremity and the use of an in situ risk assessment tool for rotational traction. STARSS Conf Proc 2010.",
+      "year": "2010",
+      "citations": 0,
+      "link": "https://doi.org/10.1007/s10439-010-0087-8"
+    },
+    {
+      "number": 18,
+      "citation": "Isaac DI, Meyer EG, Kopke KS, Haut RC. Chronic changes in the rabbit tibial plateau following blunt trauma to the constrained tibiofemoral joint. J Biomech. 2010;43:1682-8. *Citations = 38",
+      "year": "2010",
+      "citations": 38,
+      "link": "https://doi.org/10.1089/ten.teb.2009.0435"
+    },
+    {
+      "number": 17,
+      "citation": "Isaac DI, Meyer EG, Haut RC. Development of a traumatic anterior cruciate ligament and meniscal rupture model with a pilot in vivo study. J Biomech Eng. 2010; 132(064501):1-4. *Citations = 27",
+      "year": "2010",
+      "citations": 27,
+      "link": "https://doi.org/10.1002/jor.21040"
+    },
+    {
+      "number": 16,
+      "citation": "Meyer EG, Villwock MR, Haut RC. Osteochondral microdamage from valgus bending of the human knee. Clin Biomech. 2009;24(7):577-582.",
+      "year": "2009",
+      "citations": 0,
+      "link": "https://doi.org/10.1016/j.clinbiomech.2009.10.009"
+    },
+    {
+      "number": 15,
+      "citation": "Villwock MR, Meyer EG, Powell JW, Haut RC. Development and evaluation of a surrogate ankle for use with a rotational traction measurement apparatus. J Sports Eng Tech. 2009;223(4):151-158. *Citations = 8 ",
+      "year": "2009",
+      "citations": 8,
+      "link": "https://doi.org/10.1115/1.3197368"
+    },
+    {
+      "number": 14,
+      "citation": "Ting D, Cabassu J, Guillou RP, Sinnott MT, Meyer EG, Haut RC, Degardin LM. In vitro evaluation of the effect of fracture configuration on the mechanical properties of standard and novel interlocking nail systems in bending. Vet Surg. 2009;38(7):881-887. *Citations = 32",
+      "year": "2009",
+      "citations": 32,
+      "link": "https://doi.org/10.1111/j.1532-9504.2009.00588.x"
+    },
+    {
+      "number": 13,
+      "citation": "Dejardin LM, Guillou RP, Ting D, Sinnott MT, Meyer EG, Haut RC. Effect of bending direction on the mechanical behavior of interlocking nail systems. Vet Comp Orthop Trauma. 2009;22(4):264 -269. *Citations = 37",
+      "year": "2009",
+      "citations": 37,
+      "link": "https://doi.org/10.3415/VCOT-08-07-0063"
+    },
+    {
+      "number": 12,
+      "citation": "Villwock MR, Meyer EG, Powell JW, Fouty AJ, Haut RC. The effects of various infills and fiber structures on generating rotational traction on an artificial surface. J Sports Eng Tech. 2009;223:11-19. *Citations = 45",
+      "year": "2009",
+      "citations": 45,
+      "link": "https://doi.org/10.1243/17543371JSET26"
+    },
+    {
+      "number": 11,
+      "citation": "Villwock MR, Meyer EG, Powell JW, Fouty AJ, Haut R C. Football playing surface components and shoe designs may affect lower extremity injury risk potential: An in situ torsional resistance assessment. Am J Sports Med. 2009;37(3):518-525. *Citations = 224",
+      "year": "2009",
+      "citations": 224,
+      "link": "https://doi.org/10.1177/0363546508328108"
+    },
+    {
+      "number": 10,
+      "citation": "Meyer EG and Haut RC. Anterior cruciate ligament injury induced by internal tibial torsion of tibiof emoral compression. J Biomech. 2008;41:3377-3383. *Citations = 298",
+      "year": "2008",
+      "citations": 298,
+      "link": "https://doi.org/10.1016/j.jbiomech.2008.08.026"
+    },
+    {
+      "number": 9,
+      "citation": "Isaac DI, Meyer EG, Haut RC. Chondrocyte damage and contact pressures following impact on the rabbit tibiofemoral joint. J Biomech Eng. 2008;130(041018):1-5. *Citations = 41",
+      "year": "2008",
+      "citations": 41,
+      "link": "https://doi.org/10.1115/1.2913337"
+    },
+    {
+      "number": 8,
+      "citation": "Meyer EG, Baumer TG, Slade J, Smith WE, Haut R C. Tibio-femoral contact pressures and osteochondral microtrauma during ACL rupture due to excessive compressive loading and internal torque of the human knee. Am J Sports Med. 2008;36:1966-1977. *Citations = 155",
+      "year": "2008",
+      "citations": 155,
+      "link": "https://doi.org/10.1115/1.2898734"
+    },
+    {
+      "number": 7,
+      "citation": "Guillou RP, Frank JD, Sinnott MT, Meyer EG, Haut RC, Dejardin LM. Biomechanical evaluations of medial plating for pantarsal arthrodesis: Comparative in vitro study in dogs. Am J Vet Res. 2008;69(11):1406-",
+      "year": "2008",
+      "citations": 0,
+      "link": "https://doi.org/10.1115/1.2401185"
+    },
+    {
+      "number": 6,
+      "citation": "Hansen M, Long L, Wertheimer S, Meyer EG, Haut RC. Syndesmosis fixation: Analysis of shear stress via axial load on 3.5mm and 4.5mm quadricortical syndesmotic screws. J Foot Ankle Surg. 2006;45(2):65-",
+      "year": "2006",
+      "citations": 0,
+      "link": "https://doi.org/10.1016/j.jbiomech.2005.10.038"
+    },
+    {
+      "number": 5,
+      "citation": "Meyer EG, Haut RC. Excessive compression of the human tibio-femoral joint causes ACL rupture before bone fracture. J Biomech. 2005; 38(11):2311-2316. *Citations = 184",
+      "year": "2005",
+      "citations": 184,
+      "link": "https://doi.org/10.1016/j.jbiomech.2004.10.004"
+    },
+    {
+      "number": 4,
+      "citation": "Von Pfeil D, Dejardin L M, Meyer EG, Weerts R, Decamp C, Haut R C. Biomechanical comparison of an interlocking nail and a plate-rod combination; An in vitro analysis in a canine fracture model. Am J Vet Res. 2005; 66(9):1536-1543. *Citations = 67",
+      "year": "2005",
+      "citations": 67,
+      "link": "https://doi.org/10.1055/s-0038-1632976"
+    },
+    {
+      "number": 3,
+      "citation": "Kirsch J, Dejardin LM, Meyer EG, Decamp C, Haut RC. Effect of Intramedullary Pin-plate combination on the mechanical properties of pantarsal arthrodesis; A comparative in vitro analysis in dogs. Am J Vet Res. 2005; 66(1): 125-131. *Citations = 21",
+      "year": "2005",
+      "citations": 21,
+      "link": "https://doi.org/10.1115/1.1824128"
+    },
+    {
+      "number": 2,
+      "citation": "Meyer EG, Sinnott MT, Jayaraman GS, Smith WE, Haut RC. The effect of biaxial impact on the 90\u00b0 flexed human knee joint stability and injury tolerance. Stapp Car Crash Conf J. 2004; 48: 53-70. *Citations = 10",
+      "year": "2004",
+      "citations": 10,
+      "link": "https://doi.org/10.1115/1.1762896"
+    },
+    {
+      "number": 1,
+      "citation": "Meyer EG, Haut RC. The effect of knee impact angle on tolerance to rigid impacts. Stapp Car Crash Conf J. 2003; 74: 1-20. *Citations = 38",
+      "year": "2003",
+      "citations": 38,
+      "link": "https://doi.org/10.1055/s-0038-1632731"
+    }
+  ]
+}

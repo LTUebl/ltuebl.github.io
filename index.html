@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Eric G. Meyer | LTU Experimental Biomechanics Lab & Curricular Innovation</title>
+  
+  <meta name="description" content="Overview of Dr. Eric G. Meyer's teaching background, Simulation Active Learning (SAL), Entrepreneurial Minded Learning (EML), KEEN cards, interactive simulations, and student research posters at Lawrence Technological University.">
+  <meta name="keywords" content="Biomechanics, Simulation Active Learning, SAL, Entrepreneurial Minded Learning, EML, KEEN, Engineering Unleashed, Wearable Technology, Biomedical Engineering, Lawrence Technological University, LTU EBL">
+  <meta property="og:title" content="Dr. Eric G. Meyer | LTU Experimental Biomechanics Lab & Curricular Innovation">
+  <meta property="og:description" content="Explore interactive biomechanics simulations, KEEN module cards, and student design posters from the Experimental Biomechanics Laboratory at LTU.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ltuebl.github.io/">
+  
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Site Header with EBL Logo and Two-Tier Navigation -->
+  <header class="site-header">
+    <!-- Top Row: Brand & Actions -->
+    <div class="header-top-bar">
+      <div class="container header-top-inner">
+        <a href="#overview" class="brand-wrapper">
+          <img src="EBLlogo.png" alt="EBL Logo" class="brand-logo-img">
+          <div class="brand-text">
+            <span class="brand-title">Experimental Biomechanics Laboratory</span>
+            <span class="brand-subtitle">Biomedical Engineering &middot; Lawrence Technological University</span>
+          </div>
+        </a>
+        
+        <div class="nav-actions">
+          <a href="https://github.com/LTUebl" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" title="View LTUebl GitHub Organization">
+            <i class="bi bi-github"></i> <span class="d-none-sm">LTUebl</span>
+          </a>
+          <button type="button" class="theme-toggle-btn" id="themeToggle" aria-label="Toggle color theme">
+            <i class="bi bi-moon-stars-fill"></i>
+          </button>
+          <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open mobile menu">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Bottom Row: Dedicated Horizontal Menu Bar -->
+    <nav class="header-nav-bar">
+      <div class="container">
+        <ul class="nav-links" id="navLinks">
+          <li class="nav-item"><a href="#overview"><i class="bi bi-house-door"></i> Overview</a></li>
+          <li class="nav-item"><a href="#pillars"><i class="bi bi-mortarboard"></i> Curricular Pillars</a></li>
+          <li class="nav-item"><a href="#simulations"><i class="bi bi-cpu"></i> Interactive Simulations</a></li>
+          <li class="nav-item"><a href="#keen"><i class="bi bi-lightbulb"></i> KEEN Cards</a></li>
+          <li class="nav-item"><a href="#posters"><i class="bi bi-easel"></i> Student Posters</a></li>
+          <li class="nav-item"><a href="#facilities"><i class="bi bi-building"></i> Lab &amp; WTIC</a></li>
+          <li class="nav-item"><a href="#publications"><i class="bi bi-journal-text"></i> Publications</a></li>
+          <li class="nav-item"><a href="#connect"><i class="bi bi-person-lines-fill"></i> Faculty Bio</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="overview">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Inspiring Innovation Through <span class="text-gradient">Active Simulation &amp; Entrepreneurial Learning</span>
+        </h1>
+        
+        <div class="hero-role">
+          <span>Dr. Eric G. Meyer, PhD</span>
+          <span style="opacity:0.4;">|</span>
+          <span style="font-size:1.05rem; color:var(--text-muted); font-weight:500;">Associate Professor of Biomedical Engineering</span>
+        </div>
+        
+        <p class="hero-lead">
+          Leading curricular transformation in biomedical engineering through 
+          <strong>Simulation Active Learning (SAL)</strong>, 
+          <strong>Entrepreneurial Minded Learning (EML)</strong>, and 
+          <strong>Active Collaborative &amp; Project-Based Learning (ACL/PBL)</strong>. 
+          Directing the LTU Experimental Biomechanics Laboratory (EBL) and Wearable Technology Innovation Center (WTIC) 
+          at the Taubman Complex.
+        </p>
+        
+        <div class="hero-actions">
+          <a href="#simulations" class="btn btn-primary">
+            <i class="bi bi-play-circle-fill"></i> Launch Interactive Simulations
+          </a>
+          <a href="#keen" class="btn btn-accent">
+            <i class="bi bi-lightbulb-fill"></i> Explore KEEN Cards (#5823)
+          </a>
+          <a href="#posters" class="btn btn-outline">
+            <i class="bi bi-easel-fill"></i> Research &amp; Design Posters
+          </a>
+          <a href="MeyerCV2026.pdf" target="_blank" class="btn btn-outline">
+            <i class="bi bi-file-earmark-pdf-fill"></i> Download Full CV
+          </a>
+        </div>
+        
+        <!-- Connected CV Links Bar -->
+        <div class="external-links-row">
+          <span style="font-size:0.78rem; font-weight:700; color:var(--text-muted); text-transform:uppercase;">Connected LTU &amp; Scholar Links:</span>
+          <a href="https://www.ltu.edu/content/faculty-and-staff/eric-meyer" target="_blank" rel="noopener noreferrer" class="link-chip">
+            <i class="bi bi-mortarboard-fill" style="color:var(--primary);"></i> LTU Faculty Profile
+          </a>
+          <a href="https://ltu.edu/engineering/biomedical-engineering/" target="_blank" rel="noopener noreferrer" class="link-chip">
+            <i class="bi bi-hospital" style="color:var(--primary);"></i> LTU BME Department
+          </a>
+          <a href="https://engineeringunleashed.com/card/5823" target="_blank" rel="noopener noreferrer" class="link-chip">
+            <i class="bi bi-card-text" style="color:var(--primary);"></i> KEEN Card #5823
+          </a>
+          <a href="http://scholar.google.com/citations?user=3SbYkskAAAAJ" target="_blank" rel="noopener noreferrer" class="link-chip">
+            <i class="bi bi-google" style="color:#4285F4;"></i> Google Scholar
+          </a>
+          <a href="https://www.researchgate.net/profile/Eric-Meyer-9" target="_blank" rel="noopener noreferrer" class="link-chip">
+            <i class="bi bi-search" style="color:#00CCBB;"></i> ResearchGate
+          </a>
+          <a href="https://orcid.org/0000-0002-7477-6050" target="_blank" rel="noopener noreferrer" class="link-chip">
+            <i class="bi bi-person-badge" style="color:#A6CE39;"></i> ORCID
+          </a>
+          <a href="https://www.linkedin.com/in/eric-meyer-949a90b/" target="_blank" rel="noopener noreferrer" class="link-chip">
+            <i class="bi bi-linkedin" style="color:#0A66C2;"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+      
+      <!-- Hero Profile & Clickable Stats Card -->
+      <aside class="hero-card">
+        <div class="hero-card-header">
+          <div class="hero-avatar-wrap">
+            <img src="Eric_Meyer_Profile.png" alt="Dr. Eric G. Meyer" onerror="this.src='LTUBME.jpg'">
+          </div>
+          <div>
+            <h2 class="hero-card-name">Dr. Eric G. Meyer</h2>
+            <div class="hero-card-dept">Director, EBL &amp; WTIC</div>
+            <div style="font-size:0.82rem; color:var(--primary); font-weight:700; margin-top:3px;">
+              Lawrence Technological University
+            </div>
+          </div>
+        </div>
+        
+        <!-- Clickable Stat Buttons -->
+        <div class="hero-stats-grid">
+          <a href="#keen" class="stat-box clickable-stat" title="View published KEEN educational cards">
+            <div class="stat-number">
+              1,961+ <i class="bi bi-arrow-right-short stat-link-icon"></i>
+            </div>
+            <div class="stat-label">KEEN Peer Engagements</div>
+          </a>
+          
+          <a href="http://scholar.google.com/citations?user=3SbYkskAAAAJ" target="_blank" rel="noopener noreferrer" class="stat-box clickable-stat" title="View Google Scholar Citations Profile">
+            <div class="stat-number">
+              2,890+ <i class="bi bi-box-arrow-up-right stat-link-icon"></i>
+            </div>
+            <div class="stat-label">Peer Citations (h-index 25)</div>
+          </a>
+          
+          <a href="#simulations" class="stat-box clickable-stat" title="View Live Interactive Web Simulations">
+            <div class="stat-number">
+              6 <i class="bi bi-arrow-right-short stat-link-icon"></i>
+            </div>
+            <div class="stat-label">Live Web Simulations</div>
+          </a>
+          
+          <a href="#posters" class="stat-box clickable-stat" title="View Student &amp; Research Posters Gallery">
+            <div class="stat-number">
+              36 <i class="bi bi-arrow-right-short stat-link-icon"></i>
+            </div>
+            <div class="stat-label">Research &amp; Design Posters</div>
+          </a>
+        </div>
+        
+        <div class="hero-lab-highlight">
+          <i class="bi bi-geo-alt-fill" style="color:var(--primary); font-size:1.4rem;"></i>
+          <div class="hero-lab-text">
+            <strong>Experimental Biomechanics Laboratory</strong>
+            Taubman Complex J134 &middot; 10-Camera Vicon Optical MoCap, Dual Kistler Forceplates, 16-Ch Delsys Wireless EMG/IMU.
+          </div>
+        </div>
+        
+        <div style="margin-top:16px; display:flex; gap:10px;">
+          <a href="LTU_BME_EBL_Brochure.pdf" target="_blank" class="btn btn-outline btn-sm" style="flex:1;">
+            <i class="bi bi-file-earmark-pdf"></i> EBL Lab Brochure
+          </a>
+          <a href="MeyerFacultyProfile.pdf" target="_blank" class="btn btn-outline btn-sm" style="flex:1;">
+            <i class="bi bi-person-vcard"></i> Faculty Profile
+          </a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Curricular Pillars Section (SAL, EML, ACL/PBL, Innovation) -->
+  <section class="section section-alt" id="pillars">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Pedagogical Framework</span>
+        <h2 class="section-title">Teaching Philosophy &amp; Curricular Pillars</h2>
+        <p class="section-subtitle">
+          Empowering biomedical engineering students through authentic hands-on inquiry, mathematical simulation, 
+          entrepreneurial curiosity, and collaborative real-world design challenges.
+        </p>
+      </div>
+      
+      <!-- 4 Pillars Grid -->
+      <div class="pillars-grid">
+        <!-- Pillar 1: SAL -->
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <i class="bi bi-sliders"></i>
+          </div>
+          <div class="pillar-tag">Pillar 1</div>
+          <h3 class="pillar-title">Simulation Active Learning (SAL)</h3>
+          <p class="pillar-desc">
+            Bridging abstract mathematical physics, continuum mechanics, and cellular biology into real-time browser simulations. 
+            Students interactively manipulate spring-dashpot constants, chain conformations, and assembly indices to build intuitive physical intuition before entering the laboratory.
+          </p>
+          <div class="pillar-courses">
+            <strong>Integrated Courses:</strong><br>
+            BME 3303 Biomechanics &middot; BME 4313 Tissue Mechanics &middot; BME 5313 Cellular Mechanobiology
+          </div>
+        </div>
+        
+        <!-- Pillar 2: EML -->
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <i class="bi bi-lightbulb"></i>
+          </div>
+          <div class="pillar-tag">Pillar 2</div>
+          <h3 class="pillar-title">Entrepreneurial Minded Learning (EML)</h3>
+          <p class="pillar-desc">
+            Infusing the KEEN 3Cs framework (<strong>Curiosity, Connections, Creating Value</strong>) across technical coursework. 
+            Through the "Quantified Self" (QS4EML) paradigm, students connect sensor data to customer discovery, healthcare economics, and societal impact.
+          </p>
+          <div class="pillar-courses">
+            <strong>Integrated Courses:</strong><br>
+            BME 1002 Intro to BME &middot; BME 3113 Wearable Tech &middot; BME 3002 BME Best Practices &middot; KEEN Modules
+          </div>
+        </div>
+        
+        <!-- Pillar 3: ACL / PBL -->
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <i class="bi bi-people-fill"></i>
+          </div>
+          <div class="pillar-tag">Pillar 3</div>
+          <h3 class="pillar-title">Active Collaborative &amp; Project-Based Learning</h3>
+          <p class="pillar-desc">
+            Studio-based design and multi-semester capstones where multidisciplinary teams tackle authentic industry problems. 
+            Students iterate through breadboarding, 3D printing, firmware debugging, and client validation with partners like Lear Corporation and Henry Ford Health.
+          </p>
+          <div class="pillar-courses">
+            <strong>Integrated Courses:</strong><br>
+            BME 4013/4022 Capstone &middot; EGE 1001 Eng Design &middot; BME 3113 Studio Model
+          </div>
+        </div>
+        
+        <!-- Pillar 4: Innovation -->
+        <div class="pillar-card">
+          <div class="pillar-icon-wrap">
+            <i class="bi bi-cpu-fill"></i>
+          </div>
+          <div class="pillar-tag">Pillar 4</div>
+          <h3 class="pillar-title">Innovation &amp; Emerging Tech</h3>
+          <p class="pillar-desc">
+            Pioneering modern engineering methodologies: from open-source biomedical hardware and Web Serial sensor dashboards 
+            to integrating <strong>Explainable AI</strong> for educator workflows (KNC 2026) and Generative AI SCAMPERing ideation techniques.
+          </p>
+          <div class="pillar-courses">
+            <strong>Leading Initiatives:</strong><br>
+            ASEE 2025 "Fifth Element of BME is Innovation" &middot; KNC 2026 AI Workshop &middot; Wearables Center
+          </div>
+        </div>
+      </div>
+      
+      <!-- Visual Curricular Evidence Banner with Solid White Backgrounds -->
+      <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:16px; margin-bottom: 40px;">
+        <div class="image-box-white" style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); height:160px; background:#FFFFFF;">
+          <img src="BME_ActiveLearning.png" alt="Active Learning in BME" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;" onerror="this.src='EBL_Home.png'">
+        </div>
+        <div class="image-box-white" style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); height:160px; background:#FFFFFF;">
+          <img src="BME_LearnByDoing.png" alt="Learn By Doing" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;" onerror="this.src='EBL_ForcePlates.jpg'">
+        </div>
+        <div class="image-box-white" style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); height:160px; background:#FFFFFF;">
+          <img src="BME_FabricatingPrototypes.png" alt="Fabricating Prototypes" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;" onerror="this.src='BME_WearableCircuits.jpg'">
+        </div>
+        <div class="image-box-white" style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); height:160px; background:#FFFFFF;">
+          <img src="KEEN_SkillsetMindset.png" alt="KEEN Skillset & Mindset" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;" onerror="this.src='QS4EML_Roadshow.jpg'">
+        </div>
+      </div>
+      
+      <!-- Curricular Courses Showcase -->
+      <div class="courses-showcase">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
+          <h3 style="font-size: 1.4rem; font-weight:800; color:var(--primary);">
+            <i class="bi bi-journal-code"></i> Core Curricular Course Portfolio Developed &amp; Taught
+          </h3>
+          <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Lawrence Technological University &middot; Department of Biomedical Engineering</span>
+        </div>
+        <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:18px;">
+          Dr. Meyer has designed and taught over 11 distinct biomedical engineering courses, creating hands-on laboratory modules, clinical simulation experiences, and entrepreneurial design challenges.
+        </p>
+        
+        <div class="courses-grid">
+          <div class="course-item">
+            <span class="course-badge">BME 3113</span>
+            <h4 class="course-name">Wearable Technology Design</h4>
+            <p class="course-summary">
+              Quintessential design studio course covering sensor physics, embedded microcontroller firmware, flexible circuits, power management, BLE telemetry, and medical device ergonomics.
+            </p>
+          </div>
+          
+          <div class="course-item">
+            <span class="course-badge">BME 3303 &amp; 3301</span>
+            <h4 class="course-name">Intro to Biomechanics &amp; Lab</h4>
+            <p class="course-summary">
+              Statics, kinematics, and kinetics of human musculoskeletal systems. Integrated with mastery-based vector learning drills and open-source sensor kinematic projects.
+            </p>
+          </div>
+          
+          <div class="course-item">
+            <span class="course-badge">BME 5303</span>
+            <h4 class="course-name">Engineering in Orthopedics</h4>
+            <p class="course-summary">
+              Active surgical simulation learning modules where students interact with orthopedic surgical tools, synthetic bones, implant fixation mechanics, and clinical device testing.
+            </p>
+          </div>
+          
+          <div class="course-item">
+            <span class="course-badge">BME 4313</span>
+            <h4 class="course-name">Tissue Mechanics</h4>
+            <p class="course-summary">
+              Structure-function relationships of biological tissues (articular cartilage, ligament, bone, intervertebral disc). Integrates discrete viscoelasticity and biphasic models.
+            </p>
+          </div>
+          
+          <div class="course-item">
+            <span class="course-badge">BME 6303 / 5313</span>
+            <h4 class="course-name">Cellular Mechanobiology</h4>
+            <p class="course-summary">
+              Mechanotransduction, focal adhesions, cytoskeletal prestress, and polymer statistical mechanics. Supported by interactive assembly theory and random walk simulations.
+            </p>
+          </div>
+          
+          <div class="course-item">
+            <span class="course-badge">BME 4013 &amp; 4022</span>
+            <h4 class="course-name">Biomedical Projects 1 &amp; 2</h4>
+            <p class="course-summary">
+              Two-semester senior capstone design sequence solving real clinical and industrial challenges (e.g. Lear automotive seating comfort, concussions, healthcare safety).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Web Simulations Showcase Section -->
+  <section class="section" id="simulations">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Simulation Active Learning (SAL)</span>
+        <h2 class="section-title">Interactive Web-Based Engineering Simulations</h2>
+        <p class="section-subtitle">
+          Explore the suite of browser-based simulations developed by Dr. Meyer and hosted via the LTUebl GitHub organization. 
+          Each simulation provides dynamic parameter controls, mathematical visualizations, and real-time feedback for active classroom learning.
+        </p>
+      </div>
+      
+      <!-- Simulations Grid (Dynamically Populated from data.js) -->
+      <div class="simulations-grid" id="simulationsGrid">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- KEEN Engineering Unleashed Cards Section -->
+  <section class="section section-alt" id="keen">
+    <div class="container">
+      <!-- KEEN Banner with Engagement Stats -->
+      <div class="keen-stats-banner">
+        <div class="keen-banner-content">
+          <div style="display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,0.15); padding:4px 12px; border-radius:var(--radius-full); font-size:0.78rem; font-weight:700; color:#FFFFFF; text-transform:uppercase; margin-bottom:10px;">
+            <i class="bi bi-trophy-fill"></i> Kern Entrepreneurial Engineering Network
+          </div>
+          <h3>Published KEEN Educational Module Cards</h3>
+          <p>
+            Dr. Meyer has published <strong>23 peer-reviewed teaching module cards</strong> on Engineering Unleashed, 
+            disseminating Entrepreneurial Minded Learning (EML), Quantified Self (QS4EML), and clinical simulation pedagogy 
+            to engineering faculty nationwide.
+          </p>
+          <div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap;">
+            <a href="https://engineeringunleashed.com/card/5823" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="background:#FFF; color:var(--primary); font-weight:700;">
+              <i class="bi bi-star-fill" style="color:var(--accent);"></i> Highlighted Card #5823 (BME Essential Skills)
+            </a>
+            <a href="https://engineeringunleashed.com/card/5797" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="color:#FFF; background:transparent; border-color:rgba(255,255,255,0.4);">
+              <i class="bi bi-robot"></i> KNC2026 Card #5797 (Explainable AI)
+            </a>
+          </div>
+        </div>
+        
+        <div class="keen-banner-metrics">
+          <div class="keen-big-number">1,961+</div>
+          <div class="keen-big-label">Peer Educator Engagements</div>
+          <div style="font-size:0.76rem; color:#E2E8F0; margin-top:4px;">Across 23 Published Cards</div>
+        </div>
+      </div>
+      
+      <!-- Filter and Search Controls -->
+      <div class="filter-controls-row">
+        <div class="filter-pills" id="keenFilterPills">
+          <button type="button" class="filter-btn active" data-filter="all">All Cards (23)</button>
+          <button type="button" class="filter-btn" data-filter="featured"><i class="bi bi-star-fill" style="color:var(--primary);"></i> Featured</button>
+          <button type="button" class="filter-btn" data-filter="Quantified Self">Quantified Self (QS4EML)</button>
+          <button type="button" class="filter-btn" data-filter="AI">AI &amp; Innovation</button>
+          <button type="button" class="filter-btn" data-filter="Wearables">Wearables &amp; IoT</button>
+          <button type="button" class="filter-btn" data-filter="Biomechanics">Biomechanics &amp; Sensors</button>
+          <button type="button" class="filter-btn" data-filter="Surgical">Surgical Simulation</button>
+        </div>
+        
+        <div class="search-box-wrap">
+          <i class="bi bi-search search-icon"></i>
+          <input type="text" class="search-input" id="keenSearch" placeholder="Search cards by topic, course, title...">
+        </div>
+      </div>
+      
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+        <span id="keenCountBadge" style="font-size:0.85rem; font-weight:700; color:var(--text-muted);">23 cards shown</span>
+        <span style="font-size:0.8rem; color:var(--text-muted);"><i class="bi bi-info-circle"></i> Click any card to view full lesson plans on Engineering Unleashed</span>
+      </div>
+      
+      <!-- KEEN Cards Grid (Populated from data.js) -->
+      <div class="keen-cards-grid" id="keenCardsGrid">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Research & Student Design Posters Gallery Section -->
+  <section class="section" id="posters">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Student Innovation &amp; Research</span>
+        <h2 class="section-title">Research &amp; Student Design Posters Gallery</h2>
+        <p class="section-subtitle">
+          A showcase of 36 undergraduate capstone, graduate thesis, and faculty research posters presented at national conferences 
+          (ASB, BMES, ASEE, SB3C, WCB, ESSKA) and LTU Research Days. Click any poster to view interactive high-resolution previews or download PDFs.
+        </p>
+      </div>
+      
+      <!-- Filter and Search Controls for Posters -->
+      <div class="filter-controls-row">
+        <div class="filter-pills" id="posterFilterPills">
+          <button type="button" class="filter-btn active" data-filter="all">All Posters (36)</button>
+          <button type="button" class="filter-btn" data-filter="Wearables">Wearables &amp; Sensing</button>
+          <button type="button" class="filter-btn" data-filter="Biomechanics">Biomechanics &amp; Injury</button>
+          <button type="button" class="filter-btn" data-filter="Orthopedics">Orthopedics &amp; Implants</button>
+          <button type="button" class="filter-btn" data-filter="Senior Capstone">Senior Capstone Design</button>
+          <button type="button" class="filter-btn" data-filter="Pedagogy">EML &amp; Pedagogy</button>
+        </div>
+        
+        <div class="search-box-wrap">
+          <i class="bi bi-search search-icon"></i>
+          <input type="text" class="search-input" id="posterSearch" placeholder="Search posters by title, author, year...">
+        </div>
+      </div>
+      
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+        <span id="posterCountBadge" style="font-size:0.85rem; font-weight:700; color:var(--text-muted);">36 posters shown</span>
+        <span style="font-size:0.82rem; color:var(--primary); font-weight:600;"><i class="bi bi-hand-index-thumb"></i> Click any card for instant zoomable preview</span>
+      </div>
+      
+      <!-- Posters Grid (Populated from data.js) -->
+      <div class="posters-grid" id="postersGrid">
+        <!-- Rendered by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Programs & Facilities (EBL & WTIC) -->
+  <section class="section section-alt" id="facilities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">State-of-the-Art Facilities</span>
+        <h2 class="section-title">Experimental Biomechanics Laboratory &amp; WTIC</h2>
+        <p class="section-subtitle">
+          Combining human movement biomechanics, wireless sensor telemetry, computational finite element models, 
+          and surgical simulation at Lawrence Tech's Taubman Complex.
+        </p>
+      </div>
+      
+      <div class="facility-grid">
+        <!-- EBL Facility -->
+        <div class="facility-card">
+          <div class="facility-card-image" style="height:200px; border-radius:var(--radius-md); overflow:hidden; margin-bottom:20px; background:#FFFFFF; border:1px solid var(--border-color);">
+            <img src="EBL_Home.png" alt="Experimental Biomechanics Laboratory" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+          </div>
+          <h3 class="facility-title">Experimental Biomechanics Laboratory (EBL)</h3>
+          <div class="facility-location"><i class="bi bi-geo-alt-fill"></i> Taubman Complex J134 &middot; Lawrence Technological University</div>
+          <p class="facility-desc">
+            Directing advanced biomechanical investigations in human performance, sports injury mechanisms (ACL tears, ankle sprains), 
+            and orthopedic implant stability. Integrates in vivo human subject testing with cadaveric and computational finite element models.
+          </p>
+          <ul class="facility-features">
+            <li><i class="bi bi-camera-video-fill"></i> 10-camera Vicon optical motion capture system (Bonita &amp; Basler high-speed video)</li>
+            <li><i class="bi bi-arrows-collapse"></i> Dual Kistler piezoelectric ground reaction force platforms</li>
+            <li><i class="bi bi-broadcast"></i> 16-channel Delsys Trigno wireless surface EMG and triaxial accelerometer system</li>
+            <li><i class="bi bi-tools"></i> Dynamic drop tower, materials testing machines, and FEBio computational biomechanics suite</li>
+          </ul>
+          <div style="margin-top:auto;">
+            <a href="LTU_BME_EBL_Brochure.pdf" target="_blank" class="btn btn-primary btn-sm">
+              <i class="bi bi-file-earmark-pdf"></i> Download EBL Lab Brochure
+            </a>
+          </div>
+        </div>
+        
+        <!-- WTIC Facility -->
+        <div class="facility-card">
+          <div class="facility-card-image" style="height:200px; border-radius:var(--radius-md); overflow:hidden; margin-bottom:20px; background:#FFFFFF; border:1px solid var(--border-color);">
+            <img src="WTIC_Collaborations.png" alt="Wearable Technology Innovation Center" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+          </div>
+          <h3 class="facility-title">Wearable Technology Innovation Center (WTIC)</h3>
+          <div class="facility-location"><i class="bi bi-cpu-fill"></i> Multidisciplinary Research &middot; Founded 2019</div>
+          <p class="facility-desc">
+            Spearheading open innovation and interdisciplinary collaborations across <strong>sensing, perception, actuation, and control</strong> 
+            to engineer next-generation robotic exoskeletons, smart compression therapy, and automotive ergonomic comfort sensors.
+          </p>
+          <ul class="facility-features">
+            <li><i class="bi bi-car-front-fill"></i> Multi-year research collaboration with <strong>Lear Corporation</strong> on automotive comfort &amp; seating vibration</li>
+            <li><i class="bi bi-heart-pulse-fill"></i> Clinical sensor collaborations with Henry Ford Health and hospital partners</li>
+            <li><i class="bi bi-smartwatch"></i> Quantified-Self wearable prototypes (smart rings, instrumented knee sleeves, swing sensors)</li>
+            <li><i class="bi bi-code-slash"></i> Edge AI and markerless computer vision pipelines (OpenCap, MediaPipe, Jetson)</li>
+          </ul>
+          <div style="margin-top:auto;">
+            <a href="DisruptiveBiotechSeminar_Book.pdf" target="_blank" class="btn btn-outline btn-sm">
+              <i class="bi bi-book"></i> Presidential Colloquium Book
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Facility Image Gallery with Solid White Backgrounds -->
+      <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:16px;">
+        <div class="image-box-white" style="height:140px; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); background:#FFFFFF;">
+          <img src="EBL_InertialSensors.png" alt="Inertial Sensors" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+        </div>
+        <div class="image-box-white" style="height:140px; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); background:#FFFFFF;">
+          <img src="EBL_ForcePlates.jpg" alt="Forceplates" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+        </div>
+        <div class="image-box-white" style="height:140px; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); background:#FFFFFF;">
+          <img src="EBL_OriginalMoCapSetup.jpg" alt="MoCap Setup" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+        </div>
+        <div class="image-box-white" style="height:140px; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); background:#FFFFFF;">
+          <img src="LTU_TaubmanComplex.jpg" alt="LTU Taubman Complex" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications & Scholarship Section -->
+  <section class="section" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Scholarly Output</span>
+        <h2 class="section-title">Peer-Reviewed Publications &amp; Scholarship</h2>
+        <p class="section-subtitle">
+          Over 44 peer-reviewed journal and proceeding articles with more than 2,890 citations and an h-index of 25. 
+          Covering human biomechanics, orthopedic injury mechanisms, wearable sensor validation, and engineering pedagogy.
+        </p>
+      </div>
+      
+      <div class="publications-container">
+        <!-- Stats Banner -->
+        <div class="pubs-header-banner">
+          <div class="pubs-stats-row">
+            <div class="pub-stat-item">
+              <span class="pub-stat-val">2,890+</span>
+              <span class="pub-stat-lbl">Total Citations</span>
+            </div>
+            <div style="height:36px; width:1px; background:var(--border-color);"></div>
+            <div class="pub-stat-item">
+              <span class="pub-stat-val">25</span>
+              <span class="pub-stat-lbl">h-Index</span>
+            </div>
+            <div style="height:36px; width:1px; background:var(--border-color);"></div>
+            <div class="pub-stat-item">
+              <span class="pub-stat-val">44</span>
+              <span class="pub-stat-lbl">Peer-Reviewed Articles</span>
+            </div>
+            <div style="height:36px; width:1px; background:var(--border-color);"></div>
+            <div class="pub-stat-item">
+              <span class="pub-stat-val">2</span>
+              <span class="pub-stat-lbl">Books / Monographs</span>
+            </div>
+          </div>
+          
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <a href="http://scholar.google.com/citations?user=3SbYkskAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <i class="bi bi-google"></i> Google Scholar Profile
+            </a>
+            <a href="https://www.researchgate.net/profile/Eric-Meyer-9" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <i class="bi bi-box-arrow-up-right"></i> ResearchGate
+            </a>
+            <a href="https://orcid.org/0000-0002-7477-6050" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <i class="bi bi-person-badge"></i> ORCID
+            </a>
+          </div>
+        </div>
+        
+        <!-- Publications List Container (Rendered by app.js with web links) -->
+        <div class="pub-list" id="publicationsList">
+          <!-- Rendered by app.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Faculty Profile & Institutional Connections Section -->
+  <section class="section section-alt" id="connect">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Academic Background</span>
+        <h2 class="section-title">Faculty Biography &amp; Institutional Connections</h2>
+        <p class="section-subtitle">
+          Connecting education, orthopaedic biomechanics research, and industry translation.
+        </p>
+      </div>
+      
+      <div style="display:grid; grid-template-columns: 1.1fr 0.9fr; gap:40px; align-items:start;">
+        <div style="background:var(--bg-card); padding:32px; border-radius:var(--radius-lg); border:1px solid var(--border-color); box-shadow:var(--shadow-sm);">
+          <h3 style="font-size:1.4rem; font-weight:800; margin-bottom:14px; color:var(--primary);">
+            Academic Appointments &amp; Leadership
+          </h3>
+          <p style="font-size:0.92rem; color:var(--text-muted); line-height:1.7; margin-bottom:20px;">
+            Dr. Eric G. Meyer received his Ph.D. in Mechanical Engineering (Biomechanics) from Michigan State University, 
+            investigating lower extremity sports injuries under University Distinguished Professor Roger C. Haut. 
+            He completed his post-doctoral research fellowship in cartilage tissue engineering and mechanobiology 
+            at the Centre for Bioengineering at Trinity College Dublin, Ireland under Prof. Daniel J. Kelly.
+          </p>
+          <p style="font-size:0.92rem; color:var(--text-muted); line-height:1.7; margin-bottom:24px;">
+            At Lawrence Technological University, Dr. Meyer serves as Associate Professor in Biomedical Engineering, 
+            previously directing the Master of Science in BME program (2014-2019) and establishing the Experimental Biomechanics 
+            Laboratory and Wearable Technology Innovation Center. In 2023, he delivered the Presidential Colloquium address 
+            for LTU Research Day.
+          </p>
+          
+          <div style="display:flex; flex-direction:column; gap:12px;">
+            <div style="display:flex; align-items:center; gap:12px; padding:12px; background:var(--bg-alt); border-radius:var(--radius-md);">
+              <i class="bi bi-mortarboard-fill" style="color:var(--primary); font-size:1.3rem;"></i>
+              <div style="font-size:0.86rem;">
+                <strong>Michigan State University</strong> &middot; Ph.D. Mechanical Engineering (2008), M.S. Engineering Mechanics (2004), B.S. Engineering Mechanics (2002)
+              </div>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; padding:12px; background:var(--bg-alt); border-radius:var(--radius-md);">
+              <i class="bi bi-globe2" style="color:var(--primary); font-size:1.3rem;"></i>
+              <div style="font-size:0.86rem;">
+                <strong>Trinity College Dublin, Ireland</strong> &middot; Post-doctoral Research Fellow, Centre for Bioengineering (2009-2010)
+              </div>
+            </div>
+            <div style="display:flex; align-items:center; gap:12px; padding:12px; background:var(--bg-alt); border-radius:var(--radius-md);">
+              <i class="bi bi-building-check" style="color:var(--primary); font-size:1.3rem;"></i>
+              <div style="font-size:0.86rem;">
+                <strong>Lawrence Technological University</strong> &middot; Associate Professor (2016-present), Assistant Professor (2010-2016)
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Institutional Links & Downloads Card -->
+        <div style="display:flex; flex-direction:column; gap:20px;">
+          <div style="background:var(--bg-card); padding:28px; border-radius:var(--radius-lg); border:1px solid var(--border-color); box-shadow:var(--shadow-sm);">
+            <h4 style="font-size:1.15rem; font-weight:800; margin-bottom:14px; color:var(--primary);">
+              <i class="bi bi-link-45deg"></i> Key Institutional Websites
+            </h4>
+            <div style="display:flex; flex-direction:column; gap:10px;">
+              <a href="https://www.ltu.edu/content/faculty-and-staff/eric-meyer" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
+                <span><i class="bi bi-person-fill" style="color:var(--primary);"></i> LTU Official Faculty Profile</span>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+              <a href="https://ltu.edu/engineering/biomedical-engineering/" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
+                <span><i class="bi bi-hospital" style="color:var(--primary);"></i> LTU Biomedical Engineering Dept</span>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+              <a href="https://www.ltu.edu" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
+                <span><i class="bi bi-mortarboard" style="color:var(--primary);"></i> Lawrence Tech University Main Portal</span>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+              <a href="https://engineeringunleashed.com" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
+                <span><i class="bi bi-lightbulb-fill" style="color:var(--primary);"></i> Engineering Unleashed / KEEN Network</span>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+              <a href="https://www.tcd.ie/biomedicalengineering/" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
+                <span><i class="bi bi-building" style="color:var(--primary);"></i> Trinity Centre for Bioengineering (TCD)</span>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div style="background:var(--bg-card); padding:28px; border-radius:var(--radius-lg); border:1px solid var(--border-color); box-shadow:var(--shadow-sm);">
+            <h4 style="font-size:1.15rem; font-weight:800; margin-bottom:14px; color:var(--primary);">
+              <i class="bi bi-file-earmark-arrow-down-fill"></i> Documents &amp; Brochure Downloads
+            </h4>
+            <div style="display:flex; flex-direction:column; gap:10px;">
+              <a href="MeyerCV2026.pdf" target="_blank" class="btn btn-primary btn-sm" style="justify-content:space-between;">
+                <span><i class="bi bi-file-earmark-pdf-fill"></i> Complete Academic Curriculum Vitae (2026)</span>
+                <i class="bi bi-download"></i>
+              </a>
+              <a href="LTU_BME_EBL_Brochure.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
+                <span><i class="bi bi-building"></i> LTU Biomedical Engineering &amp; EBL Brochure</span>
+                <i class="bi bi-download"></i>
+              </a>
+              <a href="MeyerFacultyProfile.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
+                <span><i class="bi bi-person-badge-fill"></i> LTU Faculty Highlight Profile</span>
+                <i class="bi bi-download"></i>
+              </a>
+              <a href="DisruptiveBiotechSeminar_Book.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
+                <span><i class="bi bi-book"></i> Disruptive Biotechnology Colloquium Monograph</span>
+                <i class="bi bi-download"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>Lawrence Technological University</h4>
+          <p>
+            Experimental Biomechanics Laboratory &amp; Wearable Technology Innovation Center.<br>
+            Department of Biomedical Engineering &middot; College of Engineering.
+          </p>
+          <div style="font-size:0.86rem; color:#CBD5E1;">
+            <i class="bi bi-geo-alt-fill" style="color:#FFFFFF;"></i> 21000 West Ten Mile Rd, Southfield, MI 48075<br>
+            <i class="bi bi-envelope-fill" style="color:#FFFFFF;"></i> <a href="mailto:emeyer@ltu.edu" style="color:#CBD5E1;">emeyer@ltu.edu</a> &middot; p (248) 204-2606
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h5>Curricular Focus</h5>
+          <ul class="footer-links">
+            <li><a href="#pillars">Simulation Active Learning (SAL)</a></li>
+            <li><a href="#pillars">Entrepreneurial Minded Learning (EML)</a></li>
+            <li><a href="#pillars">Active Collaborative Learning (ACL)</a></li>
+            <li><a href="#pillars">Project-Based Learning (PBL)</a></li>
+            <li><a href="#pillars">Makerspace &amp; Studio Pedagogy</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h5>Interactive Simulations</h5>
+          <ul class="footer-links">
+            <li><a href="https://ltuebl.github.io/AssemblyNumberSimulation/" target="_blank">Assembly Theory Simulator</a></li>
+            <li><a href="https://ltuebl.github.io/FBDnetworkanalysis/" target="_blank">Polymer Network Mechanics</a></li>
+            <li><a href="https://ltuebl.github.io/PolymerStatisticalMechanics/" target="_blank">Polymer Statistical Mechanics</a></li>
+            <li><a href="https://ltuebl.github.io/Viscoelasticity/" target="_blank">Discrete Viscoelastic Models</a></li>
+            <li><a href="https://ltuebl.github.io/circuitplayground-3d-orientation/" target="_blank">Circuit Playground 3D Streamer</a></li>
+            <li><a href="https://ltuebl.github.io/MBL-Quiz1-Vector-Practice/" target="_blank">Mastery Vector Practice</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h5>Online Portals</h5>
+          <ul class="footer-links">
+            <li><a href="https://github.com/LTUebl" target="_blank">LTUebl GitHub Organization</a></li>
+            <li><a href="https://engineeringunleashed.com/card/5823" target="_blank">Engineering Unleashed (#5823)</a></li>
+            <li><a href="http://scholar.google.com/citations?user=3SbYkskAAAAJ" target="_blank">Google Scholar Profile</a></li>
+            <li><a href="https://www.ltu.edu/content/faculty-and-staff/eric-meyer" target="_blank">LTU Faculty Directory</a></li>
+            <li><a href="https://www.linkedin.com/in/eric-meyer-949a90b/" target="_blank">LinkedIn Profile</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div>&copy; 2026 Dr. Eric G. Meyer, PhD &middot; Lawrence Technological University. All rights reserved.</div>
+        <div>Hosted on GitHub Pages via <a href="https://github.com/LTUebl" style="color:#FFFFFF; text-decoration:underline;">LTUebl</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal: Poster Preview & Details -->
+  <div class="modal-backdrop" id="posterModal" role="dialog" aria-modal="true" aria-labelledby="posterModalTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="posterModalTitle">Poster Preview</h3>
+        <button type="button" class="modal-close-btn" onclick="closeModals()" aria-label="Close modal">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+      <div class="modal-body" id="posterModalBody">
+        <!-- Rendered by openPosterModal -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline btn-sm" onclick="closeModals()">Close</button>
+        <a href="#" target="_blank" class="btn btn-primary btn-sm" id="posterModalViewPdf">
+          <i class="bi bi-box-arrow-up-right"></i> Open Full PDF
+        </a>
+        <a href="#" download class="btn btn-accent btn-sm" id="posterModalDownloadPdf">
+          <i class="bi bi-download"></i> Download PDF
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Interactive Live Simulation Sandbox -->
+  <div class="modal-backdrop" id="simModal" role="dialog" aria-modal="true" aria-labelledby="simModalTitle">
+    <div class="modal-dialog" style="max-width:1150px; height:88vh;">
+      <div class="modal-header">
+        <h3 class="modal-title" id="simModalTitle">Interactive Simulation Preview</h3>
+        <button type="button" class="modal-close-btn" onclick="closeModals()" aria-label="Close modal">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+      <div class="modal-body" style="padding:0; overflow:hidden; position:relative; background:#0B1320;">
+        <iframe id="simModalFrame" src="about:blank" style="width:100%; height:100%; border:none;" allow="accelerometer; gyroscope;" title="Simulation Sandbox"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline btn-sm" onclick="closeModals()">Close Sandbox</button>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="simModalRepo">
+          <i class="bi bi-github"></i> View Source Code
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" id="simModalLaunch">
+          <i class="bi bi-arrows-fullscreen"></i> Launch in New Window
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
