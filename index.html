@@ -58,12 +58,12 @@
         <ul class="nav-links" id="navLinks">
           <li class="nav-item"><a href="#overview"><i class="bi bi-house-door"></i> Overview</a></li>
           <li class="nav-item"><a href="#pillars"><i class="bi bi-mortarboard"></i> Curricular Pillars</a></li>
+          <li class="nav-item"><a href="#courses"><i class="bi bi-journal-code"></i> Curricular Courses</a></li>
           <li class="nav-item"><a href="#simulations"><i class="bi bi-cpu"></i> Interactive Simulations &amp; Modules</a></li>
           <li class="nav-item"><a href="#keen"><i class="bi bi-lightbulb"></i> KEEN Cards</a></li>
           <li class="nav-item"><a href="#posters"><i class="bi bi-easel"></i> Student Posters</a></li>
           <li class="nav-item"><a href="#facilities"><i class="bi bi-building"></i> Lab &amp; WTIC</a></li>
           <li class="nav-item"><a href="#publications"><i class="bi bi-journal-text"></i> Publications</a></li>
-          <li class="nav-item"><a href="#connect"><i class="bi bi-person-lines-fill"></i> Faculty Bio</a></li>
         </ul>
       </div>
     </nav>
@@ -71,7 +71,8 @@
 
   <!-- Hero Section -->
   <section class="hero-section" id="overview">
-    <div class="container hero-grid">
+    <div class="container">
+      <div class="hero-grid">
       <div class="hero-content">
         <h1 class="hero-title">
           Inspiring Innovation Through <span class="text-gradient">Active Simulation &amp; Entrepreneurial Learning</span>
@@ -98,6 +99,9 @@
           </a>
           <a href="#keen" class="btn btn-accent">
             <i class="bi bi-lightbulb-fill"></i> Explore KEEN Cards (#5823)
+          </a>
+          <a href="#courses" class="btn btn-outline">
+            <i class="bi bi-journal-code"></i> Curricular Courses &amp; Syllabi
           </a>
           <a href="#posters" class="btn btn-outline">
             <i class="bi bi-easel-fill"></i> Research &amp; Design Posters
@@ -198,7 +202,50 @@
         </div>
       </aside>
     </div>
-  </section>
+    
+    <!-- Academic Appointments & Background moved into Overview -->
+    <div class="hero-academic-banner">
+      <div>
+        <div class="hero-academic-title">
+          <i class="bi bi-mortarboard-fill"></i> Academic Appointments &amp; Background
+        </div>
+        <p class="hero-academic-bio">
+          Dr. Eric G. Meyer received his Ph.D. in Mechanical Engineering (Biomechanics) from Michigan State University, 
+          investigating lower extremity sports injuries under University Distinguished Professor Roger C. Haut. 
+          He completed his post-doctoral research fellowship in cartilage tissue engineering and mechanobiology 
+          at the Centre for Bioengineering at Trinity College Dublin, Ireland under Prof. Daniel J. Kelly. 
+          At Lawrence Technological University, Dr. Meyer serves as Associate Professor in Biomedical Engineering, 
+          previously directing the Master of Science in BME program (2014&ndash;2019) and establishing the Experimental Biomechanics 
+          Laboratory and Wearable Technology Innovation Center. In 2023, he delivered the Presidential Colloquium address 
+          for LTU Research Day.
+        </p>
+      </div>
+      <div class="hero-appointments-cards">
+        <div class="appointment-card">
+          <div class="appointment-icon"><i class="bi bi-building-check"></i></div>
+          <div style="font-size:0.84rem; line-height:1.4;">
+            <strong>Lawrence Technological University</strong><br>
+            <span style="color:var(--text-muted);">Associate Professor (2016&ndash;present), Assistant Professor (2010&ndash;2016), Director MS-BME (2014&ndash;2019)</span>
+          </div>
+        </div>
+        <div class="appointment-card">
+          <div class="appointment-icon"><i class="bi bi-globe2"></i></div>
+          <div style="font-size:0.84rem; line-height:1.4;">
+            <strong>Trinity College Dublin, Ireland</strong><br>
+            <span style="color:var(--text-muted);">Post-doctoral Research Fellow, Centre for Bioengineering (2009&ndash;2010)</span>
+          </div>
+        </div>
+        <div class="appointment-card">
+          <div class="appointment-icon"><i class="bi bi-mortarboard-fill"></i></div>
+          <div style="font-size:0.84rem; line-height:1.4;">
+            <strong>Michigan State University</strong><br>
+            <span style="color:var(--text-muted);">Ph.D. Mechanical Eng / Biomechanics (2008), M.S. Eng Mechanics (2004), B.S. Eng Mechanics (2002)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Curricular Pillars Section (SAL, EML, ACL/PBL, Innovation) -->
   <section class="section section-alt" id="pillars">
@@ -212,152 +259,369 @@
         </p>
       </div>
       
-      <!-- 4 Pillars Grid -->
+      <!-- 4 Pillars Grid with Combined Images and Course Navigation -->
       <div class="pillars-grid">
         <!-- Pillar 1: SAL -->
         <div class="pillar-card">
-          <div class="pillar-icon-wrap">
-            <i class="bi bi-sliders"></i>
+          <div class="pillar-card-image">
+            <img src="BME_ActiveLearning.png" alt="Simulation Active Learning (SAL)" onerror="this.src='EBL_Home.png'">
           </div>
-          <div class="pillar-tag">Pillar 1</div>
-          <h3 class="pillar-title">Simulation Active Learning (SAL)</h3>
-          <p class="pillar-desc">
-            Bridging abstract mathematical physics, continuum mechanics, and cellular biology into real-time browser simulations. 
-            Students interactively manipulate spring-dashpot constants, chain conformations, and assembly indices to build intuitive physical intuition before entering the laboratory.
-          </p>
-          <div class="pillar-courses">
-            <strong>Integrated Courses:</strong><br>
-            BME 3303 Biomechanics &middot; BME 4313 Tissue Mechanics &middot; BME 5313 Cellular Mechanobiology
+          <div class="pillar-card-content">
+            <div class="pillar-tag">Pillar 1</div>
+            <h3 class="pillar-title">Simulation Active Learning (SAL)</h3>
+            <p class="pillar-desc">
+              Bridging abstract mathematical physics, continuum mechanics, and cellular biology into real-time browser simulations. 
+              Students interactively manipulate spring-dashpot constants, chain conformations, and assembly indices to build intuitive physical intuition before entering the laboratory.
+            </p>
+            <div class="pillar-courses">
+              <div style="font-size:0.74rem; text-transform:uppercase; font-weight:800; color:var(--text-muted); margin-bottom:5px;">Connected Curricular Courses:</div>
+              <div class="pillar-course-links">
+                <a href="#course-bme3303" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 3303/3301 Biomechanics &amp; Lab</a>
+                <a href="#course-bme5303" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 5303 Engineering in Orthopedics</a>
+                <a href="#course-bme4313" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 4313 Tissue Mechanics</a>
+                <a href="#course-bme5313" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 5313 Cellular Mechanobiology</a>
+              </div>
+            </div>
           </div>
         </div>
         
         <!-- Pillar 2: EML -->
         <div class="pillar-card">
-          <div class="pillar-icon-wrap">
-            <i class="bi bi-lightbulb"></i>
+          <div class="pillar-card-image">
+            <img src="KEEN_SkillsetMindset.png" alt="Entrepreneurial Minded Learning (EML)" onerror="this.src='QS4EML_Roadshow.jpg'">
           </div>
-          <div class="pillar-tag">Pillar 2</div>
-          <h3 class="pillar-title">Entrepreneurial Minded Learning (EML)</h3>
-          <p class="pillar-desc">
-            Infusing the KEEN 3Cs framework (<strong>Curiosity, Connections, Creating Value</strong>) across technical coursework. 
-            Through the "Quantified Self" (QS4EML) paradigm, students connect sensor data to customer discovery, healthcare economics, and societal impact.
-          </p>
-          <div class="pillar-courses">
-            <strong>Integrated Courses:</strong><br>
-            BME 1002 Intro to BME &middot; BME 3113 Wearable Tech &middot; BME 3002 BME Best Practices &middot; KEEN Modules
+          <div class="pillar-card-content">
+            <div class="pillar-tag">Pillar 2</div>
+            <h3 class="pillar-title">Entrepreneurial Minded Learning (EML)</h3>
+            <p class="pillar-desc">
+              Infusing the KEEN 3Cs framework (<strong>Curiosity, Connections, Creating Value</strong>) across technical coursework. 
+              Through the "Quantified Self" (QS4EML) paradigm, students connect sensor data to customer discovery, healthcare economics, and societal impact.
+            </p>
+            <div class="pillar-courses">
+              <div style="font-size:0.74rem; text-transform:uppercase; font-weight:800; color:var(--text-muted); margin-bottom:5px;">Connected Curricular Courses:</div>
+              <div class="pillar-course-links">
+                <a href="#course-bme1002" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 1002 Intro to BME (QS4EML)</a>
+                <a href="#course-bme3113" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 3113 Wearable Technology Design</a>
+                <a href="#keen" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> KEEN Cards Portfolio (23 Cards)</a>
+              </div>
+            </div>
           </div>
         </div>
         
         <!-- Pillar 3: ACL / PBL -->
         <div class="pillar-card">
-          <div class="pillar-icon-wrap">
-            <i class="bi bi-people-fill"></i>
+          <div class="pillar-card-image">
+            <img src="BME_LearnByDoing.png" alt="Active Collaborative & Project-Based Learning" onerror="this.src='EBL_ForcePlates.jpg'">
           </div>
-          <div class="pillar-tag">Pillar 3</div>
-          <h3 class="pillar-title">Active Collaborative &amp; Project-Based Learning</h3>
-          <p class="pillar-desc">
-            Studio-based design and multi-semester capstones where multidisciplinary teams tackle authentic industry problems. 
-            Students iterate through breadboarding, 3D printing, firmware debugging, and client validation with partners like Lear Corporation and Henry Ford Health.
-          </p>
-          <div class="pillar-courses">
-            <strong>Integrated Courses:</strong><br>
-            BME 4013/4022 Capstone &middot; EGE 1001 Eng Design &middot; BME 3113 Studio Model
+          <div class="pillar-card-content">
+            <div class="pillar-tag">Pillar 3</div>
+            <h3 class="pillar-title">Active Collaborative &amp; Project-Based Learning</h3>
+            <p class="pillar-desc">
+              Studio-based design and multi-semester capstones where multidisciplinary teams tackle authentic industry problems. 
+              Students iterate through breadboarding, 3D printing, firmware debugging, and client validation with partners like Lear Corporation and Henry Ford Health.
+            </p>
+            <div class="pillar-courses">
+              <div style="font-size:0.74rem; text-transform:uppercase; font-weight:800; color:var(--text-muted); margin-bottom:5px;">Connected Curricular Courses:</div>
+              <div class="pillar-course-links">
+                <a href="#course-bme4013" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 4013/4022 Capstone Design 1 &amp; 2</a>
+                <a href="#course-bme3113" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 3113 Studio Model &amp; Teardowns</a>
+                <a href="#course-bme3303" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 3301 Biomechanics Experimental Lab</a>
+              </div>
+            </div>
           </div>
         </div>
         
         <!-- Pillar 4: Innovation -->
         <div class="pillar-card">
-          <div class="pillar-icon-wrap">
-            <i class="bi bi-cpu-fill"></i>
+          <div class="pillar-card-image">
+            <img src="BME_FabricatingPrototypes.png" alt="Innovation & Emerging Tech" onerror="this.src='BME_WearableCircuits.jpg'">
           </div>
-          <div class="pillar-tag">Pillar 4</div>
-          <h3 class="pillar-title">Innovation &amp; Emerging Tech</h3>
-          <p class="pillar-desc">
-            Pioneering modern engineering methodologies: from open-source biomedical hardware and Web Serial sensor dashboards 
-            to integrating <strong>Explainable AI</strong> for educator workflows (KNC 2026) and Generative AI SCAMPERing ideation techniques.
-          </p>
-          <div class="pillar-courses">
-            <strong>Leading Initiatives:</strong><br>
-            ASEE 2025 "Fifth Element of BME is Innovation" &middot; KNC 2026 AI Workshop &middot; Wearables Center
+          <div class="pillar-card-content">
+            <div class="pillar-tag">Pillar 4</div>
+            <h3 class="pillar-title">Innovation &amp; Emerging Tech</h3>
+            <p class="pillar-desc">
+              Pioneering modern engineering methodologies: from open-source biomedical hardware and Web Serial sensor dashboards 
+              to integrating <strong>Explainable AI</strong> for educator workflows (KNC 2026) and Generative AI SCAMPERing ideation techniques.
+            </p>
+            <div class="pillar-courses">
+              <div style="font-size:0.74rem; text-transform:uppercase; font-weight:800; color:var(--text-muted); margin-bottom:5px;">Connected Curricular Courses:</div>
+              <div class="pillar-course-links">
+                <a href="#course-bme3113" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 3113 Wearable Devices &amp; AI Ideation</a>
+                <a href="#course-bme5313" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> BME 5313 Assembly Theory Simulators</a>
+                <a href="#facilities" class="pillar-course-pill"><i class="bi bi-arrow-right-circle-fill"></i> Wearable Tech Innovation Center (WTIC)</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      
-      <!-- Visual Curricular Evidence Banner with Solid White Backgrounds -->
-      <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap:16px; margin-bottom: 40px;">
-        <div class="image-box-white" style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); height:160px; background:#FFFFFF;">
-          <img src="BME_ActiveLearning.png" alt="Active Learning in BME" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;" onerror="this.src='EBL_Home.png'">
-        </div>
-        <div class="image-box-white" style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); height:160px; background:#FFFFFF;">
-          <img src="BME_LearnByDoing.png" alt="Learn By Doing" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;" onerror="this.src='EBL_ForcePlates.jpg'">
-        </div>
-        <div class="image-box-white" style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); height:160px; background:#FFFFFF;">
-          <img src="BME_FabricatingPrototypes.png" alt="Fabricating Prototypes" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;" onerror="this.src='BME_WearableCircuits.jpg'">
-        </div>
-        <div class="image-box-white" style="border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); box-shadow:var(--shadow-sm); height:160px; background:#FFFFFF;">
-          <img src="KEEN_SkillsetMindset.png" alt="KEEN Skillset & Mindset" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;" onerror="this.src='QS4EML_Roadshow.jpg'">
-        </div>
-      </div>
-      
-      <!-- Curricular Courses Showcase -->
-      <div class="courses-showcase">
-        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:12px;">
-          <h3 style="font-size: 1.4rem; font-weight:800; color:var(--primary);">
-            <i class="bi bi-journal-code"></i> Core Curricular Course Portfolio Developed &amp; Taught
-          </h3>
-          <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">Lawrence Technological University &middot; Department of Biomedical Engineering</span>
-        </div>
-        <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:18px;">
-          Dr. Meyer has designed and taught over 11 distinct biomedical engineering courses, creating hands-on laboratory modules, clinical simulation experiences, and entrepreneurial design challenges.
+    </div>
+  </section>
+
+  <!-- Curricular Courses Developed & Taught Section -->
+  <section class="section" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Academic Course Portfolio</span>
+        <h2 class="section-title">Curricular Courses Developed &amp; Taught</h2>
+        <p class="section-subtitle">
+          Dr. Meyer has designed and taught over 11 distinct biomedical engineering courses at Lawrence Technological University, 
+          creating hands-on laboratory modules, clinical simulation experiences, and entrepreneurial design challenges. 
+          Explore each course below with downloadable syllabi, pedagogical frameworks, and published KEEN cards.
         </p>
-        
-        <div class="courses-grid">
-          <div class="course-item">
-            <span class="course-badge">BME 3113</span>
+      </div>
+      
+      <div class="courses-grid">
+        <!-- Course 1: BME 1002 -->
+        <div class="course-card" id="course-bme1002">
+          <div class="course-card-image">
+            <img src="QS4EML_AHealthyApproach.png" alt="BME 1002 Intro to BME" onerror="this.src='LTUBME.jpg'">
+            <span class="course-badge-overlay">BME 1002</span>
+          </div>
+          <div class="course-card-content">
+            <h4 class="course-name">Introduction to Biomedical Engineering</h4>
+            <div class="course-meta-term"><i class="bi bi-calendar3"></i> Spring &middot; Undergraduate Core</div>
+            <p class="course-summary">
+              Comprehensive orientation to the biomedical engineering profession, design thinking methodologies, 
+              engineering ethics, and physiological systems. Early integration of Entrepreneurial Minded Learning (EML) 
+              through the Quantified Self paradigm and teardown reflection activities.
+            </p>
+            <div class="course-links-section">
+              <div class="course-link-group-label"><i class="bi bi-mortarboard"></i> Pedagogical Focus:</div>
+              <div class="course-links-flex">
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-lightbulb"></i> Pillar 2: EML</a>
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-people-fill"></i> Pillar 3: ACL/PBL</a>
+              </div>
+              <div class="course-link-group-label" style="margin-top:6px;"><i class="bi bi-card-text"></i> Published KEEN Cards:</div>
+              <div class="course-links-flex">
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-lightbulb"></i> Card #1909 (Intro to BME)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-lightbulb"></i> Card #1862 (QS4EML)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-tools"></i> Card #4297 (Pedometer Teardown)</a>
+              </div>
+            </div>
+            <div class="course-card-actions">
+              <a href="CourseInformation/BME 1002 syllabus S2021.pdf" target="_blank" class="btn btn-outline btn-sm" style="flex:1;">
+                <i class="bi bi-file-earmark-pdf-fill"></i> Download Syllabus (PDF)
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 2: BME 3113 -->
+        <div class="course-card" id="course-bme3113">
+          <div class="course-card-image">
+            <img src="BME_WearableCircuits.jpg" alt="BME 3113 Wearable Technology Design" onerror="this.src='LTUBME.jpg'">
+            <span class="course-badge-overlay">BME 3113</span>
+          </div>
+          <div class="course-card-content">
             <h4 class="course-name">Wearable Technology Design</h4>
+            <div class="course-meta-term"><i class="bi bi-calendar3"></i> Fall &middot; Studio Model &middot; Upper-Level UG</div>
             <p class="course-summary">
-              Quintessential design studio course covering sensor physics, embedded microcontroller firmware, flexible circuits, power management, BLE telemetry, and medical device ergonomics.
+              Quintessential design studio course covering biosensor physics, embedded microcontroller firmware, flexible circuit layout, 
+              power management, BLE telemetry, and medical device ergonomics. Integrates teardowns, AI benchmarking, and client discovery.
             </p>
+            <div class="course-links-section">
+              <div class="course-link-group-label"><i class="bi bi-mortarboard"></i> Pedagogical Focus:</div>
+              <div class="course-links-flex">
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-lightbulb"></i> Pillar 2: EML</a>
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-cpu-fill"></i> Pillar 4: Innovation</a>
+                <a href="#simulations" class="course-link-pill"><i class="bi bi-play-circle"></i> Wearables Studio Module</a>
+              </div>
+              <div class="course-link-group-label" style="margin-top:6px;"><i class="bi bi-card-text"></i> Published KEEN Cards:</div>
+              <div class="course-links-flex">
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-star-fill"></i> Card #5823 (Essential Skills)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-lightbulb"></i> Card #1449 (Wearable Tech)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-robot"></i> Card #5797 (Explainable AI)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-gem"></i> Card #4628 (Smart Ring Teardown)</a>
+              </div>
+            </div>
+            <div class="course-card-actions">
+              <a href="CourseInformation/BME3113_Syllabus F2026.pdf" target="_blank" class="btn btn-outline btn-sm" style="flex:1;">
+                <i class="bi bi-file-earmark-pdf-fill"></i> Download Syllabus (PDF)
+              </a>
+              <a href="https://ltuebl.github.io/WearableReverseEngineering/" target="_blank" class="btn btn-primary btn-sm">
+                <i class="bi bi-box-arrow-up-right"></i> Studio Web App
+              </a>
+            </div>
           </div>
-          
-          <div class="course-item">
-            <span class="course-badge">BME 3303 &amp; 3301</span>
-            <h4 class="course-name">Intro to Biomechanics &amp; Lab</h4>
+        </div>
+
+        <!-- Course 3: BME 3303 & 3301 -->
+        <div class="course-card" id="course-bme3303">
+          <div class="course-card-image">
+            <img src="BME_IntrotoBiomechanics.png" alt="BME 3303/3301 Biomechanics & Lab" onerror="this.src='LTUBME.jpg'">
+            <span class="course-badge-overlay">BME 3303 &amp; 3301</span>
+          </div>
+          <div class="course-card-content">
+            <h4 class="course-name">Intro to Biomechanics &amp; Laboratory</h4>
+            <div class="course-meta-term"><i class="bi bi-calendar3"></i> Fall &middot; Core Lecture + Wet Lab</div>
             <p class="course-summary">
-              Statics, kinematics, and kinetics of human musculoskeletal systems. Integrated with mastery-based vector learning drills and open-source sensor kinematic projects.
+              Musculoskeletal statics, dynamics, stress analysis, and deformable body mechanics. Coupled with experimental 
+              biomechanics laboratory using Vicon motion capture, Kistler force plates, Delsys wireless EMG, and mastery-based vector mathematics drills.
             </p>
+            <div class="course-links-section">
+              <div class="course-link-group-label"><i class="bi bi-mortarboard"></i> Pedagogical Focus:</div>
+              <div class="course-links-flex">
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-sliders"></i> Pillar 1: SAL</a>
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-people-fill"></i> Pillar 3: ACL/PBL</a>
+                <a href="#simulations" class="course-link-pill"><i class="bi bi-play-circle"></i> Vector Practice Drill</a>
+              </div>
+              <div class="course-link-group-label" style="margin-top:6px;"><i class="bi bi-card-text"></i> Published KEEN Cards:</div>
+              <div class="course-links-flex">
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-card-text"></i> Card #830 (Mastery Vector Learning)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-activity"></i> Card #4618 (EMG/IMU Sensor Fusion)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-body-text"></i> Card #4605 (Dynamic Joint Loading)</a>
+              </div>
+            </div>
+            <div class="course-card-actions">
+              <a href="CourseInformation/BME 3303 syllabus F2026.pdf" target="_blank" class="btn btn-outline btn-sm" style="flex:1;">
+                <i class="bi bi-file-earmark-pdf-fill"></i> Lecture Syllabus
+              </a>
+              <a href="CourseInformation/BME_3301_syllabus_F2026.pdf" target="_blank" class="btn btn-outline btn-sm" style="flex:1;">
+                <i class="bi bi-file-earmark-pdf-fill"></i> Lab Syllabus
+              </a>
+            </div>
           </div>
-          
-          <div class="course-item">
-            <span class="course-badge">BME 5303</span>
+        </div>
+
+        <!-- Course 4: BME 5303 -->
+        <div class="course-card" id="course-bme5303">
+          <div class="course-card-image">
+            <img src="BME_OrthopedicSurgerySimulation.jpg" alt="BME 5303 Engineering in Orthopedics" onerror="this.src='LTUBME.jpg'">
+            <span class="course-badge-overlay">BME 5303</span>
+          </div>
+          <div class="course-card-content">
             <h4 class="course-name">Engineering in Orthopedics</h4>
+            <div class="course-meta-term"><i class="bi bi-calendar3"></i> Spring &middot; Upper-Level UG / Graduate</div>
             <p class="course-summary">
-              Active surgical simulation learning modules where students interact with orthopedic surgical tools, synthetic bones, implant fixation mechanics, and clinical device testing.
+              Active surgical simulation learning modules where students operate with orthopedic surgical tools, synthetic bone models, 
+              implant fixation mechanics, and clinical device testing. Features authentic surgical failure modes and clinical device validation.
             </p>
+            <div class="course-links-section">
+              <div class="course-link-group-label"><i class="bi bi-mortarboard"></i> Pedagogical Focus:</div>
+              <div class="course-links-flex">
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-sliders"></i> Pillar 1: SAL</a>
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-people-fill"></i> Pillar 3: ACL/PBL</a>
+                <a href="#simulations" class="course-link-pill"><i class="bi bi-play-circle"></i> Orthopedic Surgery Demo</a>
+              </div>
+              <div class="course-link-group-label" style="margin-top:6px;"><i class="bi bi-card-text"></i> Published KEEN Cards:</div>
+              <div class="course-links-flex">
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-hospital"></i> Card #4619 (Active Learning in Surgery)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-tools"></i> Card #4626 (Fracture Fixation Mechanics)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-shield-check"></i> Card #5209 (Total Knee Arthroplasty)</a>
+              </div>
+            </div>
+            <div class="course-card-actions">
+              <a href="CourseInformation/BME 5303 syllabus_S2026.pdf" target="_blank" class="btn btn-outline btn-sm" style="flex:1;">
+                <i class="bi bi-file-earmark-pdf-fill"></i> Download Syllabus (PDF)
+              </a>
+              <a href="https://ltuebl.github.io/OrthopedicSurgerySimulation/" target="_blank" class="btn btn-primary btn-sm">
+                <i class="bi bi-box-arrow-up-right"></i> Surgery Sim Portal
+              </a>
+            </div>
           </div>
-          
-          <div class="course-item">
-            <span class="course-badge">BME 4313</span>
+        </div>
+
+        <!-- Course 5: BME 4313 -->
+        <div class="course-card" id="course-bme4313">
+          <div class="course-card-image">
+            <img src="EBL_CartilageTissueEngineering.png" alt="BME 4313 Tissue Mechanics" onerror="this.src='LTUBME.jpg'">
+            <span class="course-badge-overlay">BME 4313</span>
+          </div>
+          <div class="course-card-content">
             <h4 class="course-name">Tissue Mechanics</h4>
+            <div class="course-meta-term"><i class="bi bi-calendar3"></i> Spring &middot; Upper-Level UG / Dual-Listed</div>
             <p class="course-summary">
-              Structure-function relationships of biological tissues (articular cartilage, ligament, bone, intervertebral disc). Integrates discrete viscoelasticity and biphasic models.
+              Structure-function relationships of biological tissues (articular cartilage, meniscus, ligaments, tendon, bone, and intervertebral disc). 
+              Integrates discrete viscoelastic Maxwell/Voigt simulations and biphasic continuum finite element models.
             </p>
+            <div class="course-links-section">
+              <div class="course-link-group-label"><i class="bi bi-mortarboard"></i> Pedagogical Focus:</div>
+              <div class="course-links-flex">
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-sliders"></i> Pillar 1: SAL</a>
+                <a href="#simulations" class="course-link-pill"><i class="bi bi-play-circle"></i> Viscoelastic Simulator</a>
+              </div>
+              <div class="course-link-group-label" style="margin-top:6px;"><i class="bi bi-card-text"></i> Published KEEN Cards:</div>
+              <div class="course-links-flex">
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-card-text"></i> Card #5290 (Viscoelastic Models)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-flower1"></i> Card #1047 (Cartilage Biomechanics)</a>
+              </div>
+            </div>
+            <div class="course-card-actions">
+              <a href="CourseInformation/BME 4313 syllabus_S2026.pdf" target="_blank" class="btn btn-outline btn-sm" style="flex:1;">
+                <i class="bi bi-file-earmark-pdf-fill"></i> Download Syllabus (PDF)
+              </a>
+            </div>
           </div>
-          
-          <div class="course-item">
-            <span class="course-badge">BME 6303 / 5313</span>
+        </div>
+
+        <!-- Course 6: BME 5313 / 6303 -->
+        <div class="course-card" id="course-bme5313">
+          <div class="course-card-image">
+            <img src="EBL_StemCells.jpg" alt="BME 5313 Cellular Mechanobiology" onerror="this.src='LTUBME.jpg'">
+            <span class="course-badge-overlay">BME 5313 / 6303</span>
+          </div>
+          <div class="course-card-content">
             <h4 class="course-name">Cellular Mechanobiology</h4>
+            <div class="course-meta-term"><i class="bi bi-calendar3"></i> Fall &middot; Graduate Level</div>
             <p class="course-summary">
-              Mechanotransduction, focal adhesions, cytoskeletal prestress, and polymer statistical mechanics. Supported by interactive assembly theory and random walk simulations.
+              Mechanotransduction, focal adhesions, cytoskeletal prestress, and polymer statistical mechanics. 
+              Supported by browser-based interactive simulations of macromolecular assembly theory and freely jointed polymer chain statistics.
             </p>
+            <div class="course-links-section">
+              <div class="course-link-group-label"><i class="bi bi-mortarboard"></i> Pedagogical Focus:</div>
+              <div class="course-links-flex">
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-sliders"></i> Pillar 1: SAL</a>
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-cpu-fill"></i> Pillar 4: Innovation</a>
+                <a href="#simulations" class="course-link-pill"><i class="bi bi-play-circle"></i> Assembly Theory Simulator</a>
+              </div>
+              <div class="course-link-group-label" style="margin-top:6px;"><i class="bi bi-card-text"></i> Published KEEN Cards:</div>
+              <div class="course-links-flex">
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-virus"></i> Card #1106 (Cell Mechanics)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-diagram-3"></i> Card #688 (Cytoskeletal Tensegrity)</a>
+              </div>
+            </div>
+            <div class="course-card-actions">
+              <a href="CourseInformation/BME 5313 syllabus_F2026.pdf" target="_blank" class="btn btn-outline btn-sm" style="flex:1;">
+                <i class="bi bi-file-earmark-pdf-fill"></i> Download Syllabus (PDF)
+              </a>
+            </div>
           </div>
-          
-          <div class="course-item">
-            <span class="course-badge">BME 4013 &amp; 4022</span>
-            <h4 class="course-name">Biomedical Projects 1 &amp; 2</h4>
+        </div>
+
+        <!-- Course 7: BME 4013 & 4022 -->
+        <div class="course-card" id="course-bme4013">
+          <div class="course-card-image">
+            <img src="BME_IndustrySponsoredProjects.png" alt="BME 4013/4022 Biomedical Projects" onerror="this.src='LTUBME.jpg'">
+            <span class="course-badge-overlay">BME 4013 &amp; 4022</span>
+          </div>
+          <div class="course-card-content">
+            <h4 class="course-name">Biomedical Projects 1 &amp; 2 (Senior Design)</h4>
+            <div class="course-meta-term"><i class="bi bi-calendar3"></i> Fall &amp; Spring &middot; Capstone Sequence</div>
             <p class="course-summary">
-              Two-semester senior capstone design sequence solving real clinical and industrial challenges (e.g. Lear automotive seating comfort, concussions, healthcare safety).
+              Two-semester multidisciplinary senior design capstone sequence solving authentic clinical, industrial, and entrepreneurial 
+              engineering challenges (e.g. Lear automotive seating comfort, Henry Ford Health surgical ergonomics, assistive medical technologies).
             </p>
+            <div class="course-links-section">
+              <div class="course-link-group-label"><i class="bi bi-mortarboard"></i> Pedagogical Focus:</div>
+              <div class="course-links-flex">
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-people-fill"></i> Pillar 3: ACL/PBL</a>
+                <a href="#pillars" class="course-link-pill"><i class="bi bi-lightbulb"></i> Pillar 2: EML</a>
+                <a href="#posters" class="course-link-pill"><i class="bi bi-easel"></i> Student Posters Gallery</a>
+              </div>
+              <div class="course-link-group-label" style="margin-top:6px;"><i class="bi bi-card-text"></i> Published KEEN Cards:</div>
+              <div class="course-links-flex">
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-star-fill"></i> Card #5823 (Essential Skills)</a>
+                <a href="#keen" class="course-link-pill keen-pill"><i class="bi bi-lightbulb"></i> Card #684 (Client Discovery in Capstone)</a>
+              </div>
+            </div>
+            <div class="course-card-actions">
+              <a href="#posters" class="btn btn-outline btn-sm" style="flex:1;">
+                <i class="bi bi-easel-fill"></i> View Capstone Posters
+              </a>
+              <a href="MeyerCV2026.pdf" target="_blank" class="btn btn-outline btn-sm">
+                <i class="bi bi-file-earmark-pdf"></i> Project History (CV)
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -638,139 +902,6 @@
     </div>
   </section>
 
-  <!-- Faculty Profile & Institutional Connections Section -->
-  <section class="section section-alt" id="connect">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">Academic Background</span>
-        <h2 class="section-title">Faculty Biography &amp; Institutional Connections</h2>
-        <p class="section-subtitle">
-          Connecting education, orthopaedic biomechanics research, and industry translation.
-        </p>
-      </div>
-      
-      <div style="display:grid; grid-template-columns: 1.1fr 0.9fr; gap:40px; align-items:start;">
-        <div style="background:var(--bg-card); padding:32px; border-radius:var(--radius-lg); border:1px solid var(--border-color); box-shadow:var(--shadow-sm);">
-          <h3 style="font-size:1.4rem; font-weight:800; margin-bottom:14px; color:var(--primary);">
-            Academic Appointments &amp; Leadership
-          </h3>
-          <p style="font-size:0.92rem; color:var(--text-muted); line-height:1.7; margin-bottom:20px;">
-            Dr. Eric G. Meyer received his Ph.D. in Mechanical Engineering (Biomechanics) from Michigan State University, 
-            investigating lower extremity sports injuries under University Distinguished Professor Roger C. Haut. 
-            He completed his post-doctoral research fellowship in cartilage tissue engineering and mechanobiology 
-            at the Centre for Bioengineering at Trinity College Dublin, Ireland under Prof. Daniel J. Kelly.
-          </p>
-          <p style="font-size:0.92rem; color:var(--text-muted); line-height:1.7; margin-bottom:24px;">
-            At Lawrence Technological University, Dr. Meyer serves as Associate Professor in Biomedical Engineering, 
-            previously directing the Master of Science in BME program (2014-2019) and establishing the Experimental Biomechanics 
-            Laboratory and Wearable Technology Innovation Center. In 2023, he delivered the Presidential Colloquium address 
-            for LTU Research Day.
-          </p>
-          
-          <div style="display:flex; flex-direction:column; gap:12px;">
-            <div style="display:flex; align-items:center; gap:12px; padding:12px; background:var(--bg-alt); border-radius:var(--radius-md);">
-              <i class="bi bi-mortarboard-fill" style="color:var(--primary); font-size:1.3rem;"></i>
-              <div style="font-size:0.86rem;">
-                <strong>Michigan State University</strong> &middot; Ph.D. Mechanical Engineering (2008), M.S. Engineering Mechanics (2004), B.S. Engineering Mechanics (2002)
-              </div>
-            </div>
-            <div style="display:flex; align-items:center; gap:12px; padding:12px; background:var(--bg-alt); border-radius:var(--radius-md);">
-              <i class="bi bi-globe2" style="color:var(--primary); font-size:1.3rem;"></i>
-              <div style="font-size:0.86rem;">
-                <strong>Trinity College Dublin, Ireland</strong> &middot; Post-doctoral Research Fellow, Centre for Bioengineering (2009-2010)
-              </div>
-            </div>
-            <div style="display:flex; align-items:center; gap:12px; padding:12px; background:var(--bg-alt); border-radius:var(--radius-md);">
-              <i class="bi bi-building-check" style="color:var(--primary); font-size:1.3rem;"></i>
-              <div style="font-size:0.86rem;">
-                <strong>Lawrence Technological University</strong> &middot; Associate Professor (2016-present), Assistant Professor (2010-2016)
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Institutional Links & Downloads Card -->
-        <div style="display:flex; flex-direction:column; gap:20px;">
-          <div style="background:var(--bg-card); padding:28px; border-radius:var(--radius-lg); border:1px solid var(--border-color); box-shadow:var(--shadow-sm);">
-            <h4 style="font-size:1.15rem; font-weight:800; margin-bottom:14px; color:var(--primary);">
-              <i class="bi bi-link-45deg"></i> Key Institutional Websites
-            </h4>
-            <div style="display:flex; flex-direction:column; gap:10px;">
-              <a href="https://www.ltu.edu/content/faculty-and-staff/eric-meyer" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
-                <span><i class="bi bi-person-fill" style="color:var(--primary);"></i> LTU Official Faculty Profile</span>
-                <i class="bi bi-box-arrow-up-right"></i>
-              </a>
-              <a href="https://ltu.edu/engineering/biomedical-engineering/" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
-                <span><i class="bi bi-hospital" style="color:var(--primary);"></i> LTU Biomedical Engineering Dept</span>
-                <i class="bi bi-box-arrow-up-right"></i>
-              </a>
-              <a href="https://www.ltu.edu" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
-                <span><i class="bi bi-mortarboard" style="color:var(--primary);"></i> Lawrence Tech University Main Portal</span>
-                <i class="bi bi-box-arrow-up-right"></i>
-              </a>
-              <a href="https://engineeringunleashed.com" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
-                <span><i class="bi bi-lightbulb-fill" style="color:var(--primary);"></i> Engineering Unleashed / KEEN Network</span>
-                <i class="bi bi-box-arrow-up-right"></i>
-              </a>
-              <a href="https://www.tcd.ie/biomedicalengineering/" target="_blank" rel="noopener noreferrer" class="link-chip" style="justify-content:space-between; padding:10px 16px;">
-                <span><i class="bi bi-building" style="color:var(--primary);"></i> Trinity Centre for Bioengineering (TCD)</span>
-                <i class="bi bi-box-arrow-up-right"></i>
-              </a>
-            </div>
-          </div>
-          
-          <div style="background:var(--bg-card); padding:28px; border-radius:var(--radius-lg); border:1px solid var(--border-color); box-shadow:var(--shadow-sm);">
-            <h4 style="font-size:1.15rem; font-weight:800; margin-bottom:14px; color:var(--primary);">
-              <i class="bi bi-file-earmark-arrow-down-fill"></i> Documents &amp; Brochure Downloads
-            </h4>
-            <div style="display:flex; flex-direction:column; gap:10px;">
-              <a href="MeyerCV2026.pdf" target="_blank" class="btn btn-primary btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-file-earmark-pdf-fill"></i> Complete Academic Curriculum Vitae (2026)</span>
-                <i class="bi bi-download"></i>
-              </a>
-              <a href="SB3C2020_OrthopedicSurgery_ActiveLearning.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-heart-pulse-fill" style="color:var(--accent);"></i> SB3C 2020 Orthopedic Surgery Presentation</span>
-                <i class="bi bi-download"></i>
-              </a>
-              <a href="WearableTechnology_Studio_ReverseEngineering.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-smartwatch" style="color:var(--primary);"></i> Wearable Studio &amp; Reverse Engineering Deck</span>
-                <i class="bi bi-download"></i>
-              </a>
-              <a href="PedometerTeardownGuide.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-tools" style="color:var(--accent);"></i> Pedometer Teardown Guide (Lab Manual)</span>
-                <i class="bi bi-download"></i>
-              </a>
-              <a href="AIGenerated_CircuitDiagram_BOM_Pedometer.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-cpu" style="color:var(--primary);"></i> AI-Generated Pedometer Circuit &amp; BOM</span>
-                <i class="bi bi-download"></i>
-              </a>
-              <a href="DesignThinking_SCAMPER_WearableStudio.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-lightbulb" style="color:#F59E0B;"></i> Design Thinking &amp; SCAMPER Ideation Slides</span>
-                <i class="bi bi-download"></i>
-              </a>
-              <a href="Ringly_SmartRing_WearableStudio_Example.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-gem" style="color:var(--primary);"></i> Ringly Smart Ring HW1 Benchmark Example</span>
-                <i class="bi bi-download"></i>
-              </a>
-              <a href="LTU_BME_EBL_Brochure.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-building"></i> LTU Biomedical Engineering &amp; EBL Brochure</span>
-                <i class="bi bi-download"></i>
-              </a>
-              <a href="MeyerFacultyProfile.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-person-badge-fill"></i> LTU Faculty Highlight Profile</span>
-                <i class="bi bi-download"></i>
-              </a>
-              <a href="DisruptiveBiotechSeminar_Book.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
-                <span><i class="bi bi-book"></i> Disruptive Biotechnology Colloquium Monograph</span>
-                <i class="bi bi-download"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Site Footer -->
   <footer class="site-footer">
     <div class="container">
@@ -791,6 +922,7 @@
           <h5>Curricular Focus</h5>
           <ul class="footer-links">
             <li><a href="#pillars">Pedagogical Framework &amp; Pillars</a></li>
+            <li><a href="#courses">Curricular Courses &amp; Syllabi</a></li>
             <li><a href="#simulations">Interactive Simulations &amp; Studios</a></li>
             <li><a href="https://ltuebl.github.io/OrthopedicSurgerySimulation/" target="_blank">Orthopedic Surgery Simulation (SAL)</a></li>
             <li><a href="https://ltuebl.github.io/WearableReverseEngineering/" target="_blank">Wearable Reverse Engineering (EML)</a></li>

@@ -165,6 +165,7 @@ window.EBL_DATA = {
     "featured": true,
     "courses": "BME 1002 / Core BME Curricula",
     "description": "Foundational technical competencies, problem formulation, and entrepreneurial curiosity mapped to biomedical engineering industry workflows and design constraints.",
+    "image": "KEEN/Card5823.png",
     "url": "https://engineeringunleashed.com/card/5823"
   },
   {
@@ -175,6 +176,7 @@ window.EBL_DATA = {
     "featured": true,
     "courses": "Faculty Workshop / All Engineering Disciplines",
     "description": "Pedagogical strategies for integrating explainable AI, prompt engineering, and critical thinking into design workflows while instilling KEEN 3C mindset.",
+    "image": "KEEN/Card5797.png",
     "url": "https://engineeringunleashed.com/card/5797"
   },
   {
@@ -185,6 +187,7 @@ window.EBL_DATA = {
     "featured": true,
     "courses": "BME 3113 / Design Studios",
     "description": "Harnessing generative AI as a collaborative thinking partner using the classic SCAMPER ideation framework to explore non-obvious solution spaces.",
+    "image": "KEEN/Card5209.png",
     "url": "https://engineeringunleashed.com/card/5209"
   },
   {
@@ -195,6 +198,7 @@ window.EBL_DATA = {
     "featured": true,
     "courses": "BME 3113 Wearable Technology Design",
     "description": "Pioneering hands-on wearable technology design module: students solder, calibrate, and program open-source sensor systems to address unmet clinical user needs.",
+    "image": "KEEN/Card1449.jpg",
     "url": "https://engineeringunleashed.com/card/1449"
   },
   {
@@ -205,6 +209,7 @@ window.EBL_DATA = {
     "featured": true,
     "courses": "EGE 1001 / BME 1002",
     "description": "Rapid physical prototyping, sketch modeling, and customer-discovery ideation exercises to build student agency and maker skills from day one.",
+    "image": "KEEN/Card684.png",
     "url": "https://engineeringunleashed.com/card/684"
   },
   {
@@ -215,6 +220,7 @@ window.EBL_DATA = {
     "featured": true,
     "courses": "BME 5303 Engineering Applications in Orthopedics",
     "description": "Authentic orthopedic surgical simulations where students experience bone drilling, screw insertion, implant stability, and surgical tactile feedback.",
+    "image": "KEEN/Card1047.png",
     "url": "https://engineeringunleashed.com/card/1047"
   },
   {
@@ -225,6 +231,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "K-12 STEM Outreach & Summer Academies",
     "description": "Engaging high school and prospective college students in hands-on engineering maker builds that connect personal interests to STEM careers.",
+    "image": "KEEN/Card932.jpg",
     "url": "https://engineeringunleashed.com/card/932"
   },
   {
@@ -235,6 +242,7 @@ window.EBL_DATA = {
     "featured": true,
     "courses": "QS4EML Faculty Framework",
     "description": "Comprehensive guide for instructors to embed Quantified Self modules into rigorous engineering courses to ignite Curiosity, Connections, and Value Creation.",
+    "image": "KEEN/Card1715.png",
     "url": "https://engineeringunleashed.com/card/1715"
   },
   {
@@ -245,6 +253,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 3203 Bioinstrumentation",
     "description": "Connecting physiological signal conditioning, amplifier circuits, and bio-potential electrodes to wearable consumer health ecosystems.",
+    "image": "KEEN/Card1909.jpg",
     "url": "https://engineeringunleashed.com/card/1909"
   },
   {
@@ -255,6 +264,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 3303 Biomechanics",
     "description": "Kinematics and kinetics modules where students instrument their own athletic movements using smartphone IMUs and wearable load sensors.",
+    "image": "KEEN/Card830.png",
     "url": "https://engineeringunleashed.com/card/830"
   },
   {
@@ -265,6 +275,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 1002 Introduction to BME",
     "description": "Early exposure to patient health tracking, wearable metrics, and entrepreneurial problem formulation for first-year engineering students.",
+    "image": "KEEN/Card888.jpg",
     "url": "https://engineeringunleashed.com/card/888"
   },
   {
@@ -275,6 +286,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 4013 / Design Elective",
     "description": "Translating regulatory pathways (510k, PMA), risk analysis, and customer empathy into medical device innovation.",
+    "image": "KEEN/Card1862.jpg",
     "url": "https://engineeringunleashed.com/card/1862"
   },
   {
@@ -285,6 +297,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 5303 Engineering in Orthopedics",
     "description": "Coupling mechanical joint replacement design with stakeholder discovery involving orthopedic surgeons, physical therapists, and patients.",
+    "image": "KEEN/Card895.jpg",
     "url": "https://engineeringunleashed.com/card/895"
   },
   {
@@ -295,6 +308,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "Cross-Curricular Engineering",
     "description": "Pedagogical blueprints for reinforcing difficult theoretical mechanics concepts with tangible, rapid physical build iterations.",
+    "image": "KEEN/Card1106.jpg",
     "url": "https://engineeringunleashed.com/card/1106"
   },
   {
@@ -305,6 +319,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 3113 Wearable Technology Design",
     "description": "Teardown and commercial architecture analysis of smart rings, fitness trackers, and smart clothing to identify design compromises and value opportunities.",
+    "image": "KEEN/Card4628.jpg",
     "url": "https://engineeringunleashed.com/card/4628"
   },
   {
@@ -315,6 +330,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "IoT / Microcontroller Laboratories",
     "description": "Embedded connected microcontrollers creating physical feedback collection kiosks to gather real-world community survey metrics.",
+    "image": "KEEN/Card971.jpg",
     "url": "https://engineeringunleashed.com/card/971"
   },
   {
@@ -325,6 +341,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 3002 Biomedical Best Practices",
     "description": "Professional engineering standards, ethical product lifecycle management, and entrepreneurial communication.",
+    "image": "KEEN/Card688.jpg",
     "url": "https://engineeringunleashed.com/card/688"
   },
   {
@@ -335,6 +352,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 3303 Biomechanics",
     "description": "Analyzing kinetic and kinematic demands of elderly sit-to-stand transitions to design low-cost ergonomic assistance interventions.",
+    "image": "KEEN/Card4297.png",
     "url": "https://engineeringunleashed.com/card/4297"
   },
   {
@@ -345,6 +363,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 3301 Biomechanics Lab",
     "description": "Democratizing motion analysis by utilizing ubiquitous smartphone accelerometers and gyroscopes for gait and jumping kinematics.",
+    "image": "KEEN/Card4618.png",
     "url": "https://engineeringunleashed.com/card/4618"
   },
   {
@@ -355,6 +374,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 3301 Biomechanics Lab",
     "description": "Dynamometer and force sensor data collection analyzing human hand grip fatigue, neuromuscular recruitment, and rehabilitation metrics.",
+    "image": "KEEN/Card4605.png",
     "url": "https://engineeringunleashed.com/card/4605"
   },
   {
@@ -365,6 +385,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 4013 Capstone / Design Studio",
     "description": "Human-centered design focusing on stigma-free, empowering assistive mobility devices for aging populations.",
+    "image": "KEEN/Card5290.png",
     "url": "https://engineeringunleashed.com/card/5290"
   },
   {
@@ -375,6 +396,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 3303 Biomechanics",
     "description": "Students develop instrumented athletic swing sensors that provide actionable biomechanical feedback for coaches and recreational athletes.",
+    "image": "KEEN/Card4626.jpg",
     "url": "https://engineeringunleashed.com/card/4626"
   },
   {
@@ -385,6 +407,7 @@ window.EBL_DATA = {
     "featured": false,
     "courses": "BME 3301 Biomechanics Lab",
     "description": "Kinovea and high-speed video tracking workflow to teach 2D angular kinematics, projectile motion, and joint velocities.",
+    "image": "KEEN/Card4619.png",
     "url": "https://engineeringunleashed.com/card/4619"
   }
 ],

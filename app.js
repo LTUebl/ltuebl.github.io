@@ -95,20 +95,26 @@ function renderKeenCards(cards) {
   
   container.innerHTML = cards.map(c => `
     <article class="keen-card ${c.featured ? 'featured-card' : ''}" data-category="${c.category}" data-id="${c.id}">
-      <div class="keen-card-header">
-        <span class="keen-card-num"><i class="bi bi-card-heading"></i> Card #${c.id}</span>
+      <div class="keen-card-image" style="background:#FFFFFF;">
+        <img src="${c.image || 'KEEN_SkillsetMindset.png'}" alt="${c.title}" loading="lazy" style="background:#FFFFFF; object-fit:contain;" onerror="this.src='KEEN_SkillsetMindset.png'">
         <span class="keen-card-badge">${c.category}</span>
       </div>
-      <h3 class="keen-card-title">${c.title}</h3>
-      <div class="keen-card-course"><i class="bi bi-journal-bookmark"></i> ${c.courses}</div>
-      <p class="keen-card-desc">${c.description}</p>
-      <div class="keen-card-footer">
-        <span class="keen-engagement" title="${c.engagements} peer educator engagements">
-          <i class="bi bi-heart-fill"></i> ${c.engagements} Engagements
-        </span>
-        <a href="${c.url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
-          <span>View on KEEN</span> <i class="bi bi-arrow-up-right"></i>
-        </a>
+      <div class="keen-card-content">
+        <div class="keen-card-header">
+          <span class="keen-card-num"><i class="bi bi-card-heading"></i> Card #${c.id}</span>
+          ${c.featured ? '<span class="featured-tag"><i class="bi bi-star-fill"></i> Featured</span>' : ''}
+        </div>
+        <h3 class="keen-card-title">${c.title}</h3>
+        <div class="keen-card-course"><i class="bi bi-journal-bookmark"></i> ${c.courses}</div>
+        <p class="keen-card-desc">${c.description}</p>
+        <div class="keen-card-footer">
+          <span class="keen-engagement" title="${c.engagements} peer educator engagements">
+            <i class="bi bi-heart-fill"></i> ${c.engagements} Engagements
+          </span>
+          <a href="${c.url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+            <span>View on KEEN</span> <i class="bi bi-arrow-up-right"></i>
+          </a>
+        </div>
       </div>
     </article>
   `).join('');
