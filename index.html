@@ -59,6 +59,8 @@
           <li class="nav-item"><a href="#overview"><i class="bi bi-house-door"></i> Overview</a></li>
           <li class="nav-item"><a href="#pillars"><i class="bi bi-mortarboard"></i> Curricular Pillars</a></li>
           <li class="nav-item"><a href="#simulations"><i class="bi bi-cpu"></i> Interactive Simulations</a></li>
+          <li class="nav-item"><a href="#ortho-sim"><i class="bi bi-heart-pulse"></i> Orthopedic Simulation</a></li>
+          <li class="nav-item"><a href="#reverse-engineering"><i class="bi bi-tools"></i> Reverse Engineering</a></li>
           <li class="nav-item"><a href="#keen"><i class="bi bi-lightbulb"></i> KEEN Cards</a></li>
           <li class="nav-item"><a href="#posters"><i class="bi bi-easel"></i> Student Posters</a></li>
           <li class="nav-item"><a href="#facilities"><i class="bi bi-building"></i> Lab &amp; WTIC</a></li>
@@ -95,6 +97,12 @@
         <div class="hero-actions">
           <a href="#simulations" class="btn btn-primary">
             <i class="bi bi-play-circle-fill"></i> Launch Interactive Simulations
+          </a>
+          <a href="#ortho-sim" class="btn btn-outline">
+            <i class="bi bi-heart-pulse-fill" style="color:var(--accent);"></i> Orthopedic Surgery (SAL)
+          </a>
+          <a href="#reverse-engineering" class="btn btn-outline">
+            <i class="bi bi-tools" style="color:var(--primary);"></i> Reverse Engineering (EML)
           </a>
           <a href="#keen" class="btn btn-accent">
             <i class="bi bi-lightbulb-fill"></i> Explore KEEN Cards (#5823)
@@ -380,6 +388,808 @@
       <div class="simulations-grid" id="simulationsGrid">
         <!-- Rendered by app.js -->
       </div>
+    </div>
+  </section>
+
+  <!-- Simulation-Based Learning: Orthopedic Surgery Demonstrations Section -->
+  <section class="section section-alt" id="ortho-sim">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Simulation Active Learning (SAL) &middot; Surgical Biomechanics</span>
+        <h2 class="section-title">Orthopedic Surgery Demonstrations &amp; Active Learning Modules</h2>
+        <p class="section-subtitle">
+          Presented at the 2020 Summer Biomechanics, Bioengineering, and Biotransport Conference (SB3C 2020): 
+          <em>"Active Learning Modules For Training Engineers To Develop Innovative Orthopedics Applications"</em> 
+          by <strong>Dr. Eric G. Meyer</strong> (Biomedical Engineering) and <strong>Brian D. Kaminski</strong> (Nursing Program). 
+          Empowering engineering students through immersive clinical surgical simulations and authentic orthopedic implant prototyping.
+        </p>
+      </div>
+
+      <!-- Quick Action & Resource Banner -->
+      <div class="partners-highlight-bar" style="margin-bottom:30px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+        <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+          <span class="badge" style="background:var(--primary); color:#FFF; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; font-size:0.82rem;">
+            <i class="bi bi-mortarboard-fill"></i> BME 5313 / 5303: Engineering Applications in Orthopedics
+          </span>
+          <span style="font-size:0.86rem; color:var(--text-muted); font-weight:600;">
+            <i class="bi bi-geo-alt"></i> LTU Taubman Complex &middot; Orthopedic Biomechanics Lab
+          </span>
+        </div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a href="SB3C2020_OrthopedicSurgery_ActiveLearning.pdf" target="_blank" class="btn btn-primary btn-sm">
+            <i class="bi bi-file-earmark-pdf-fill"></i> Download SB3C Presentation (PDF)
+          </a>
+          <a href="https://engineeringunleashed.com/card/1047" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-sm">
+            <i class="bi bi-card-text"></i> KEEN Card #1047
+          </a>
+        </div>
+      </div>
+
+      <!-- Pedagogical Foundations: Learning Pyramid & Dual Cycle Grid -->
+      <div class="pedagogy-grid">
+        <!-- Card 1: Learn by Doing & Effectual Reasoning -->
+        <div class="pedagogy-card">
+          <div class="pedagogy-card-header">
+            <div class="pedagogy-icon">
+              <i class="bi bi-bar-chart-steps"></i>
+            </div>
+            <div>
+              <h3 class="pedagogy-title">The "Learn by Doing" Learning Pyramid</h3>
+              <div style="font-size:0.82rem; color:var(--text-muted);">National Training Laboratories &amp; Effectual Reasoning</div>
+            </div>
+          </div>
+          <div class="pedagogy-img-wrap">
+            <img src="ortho_learning_pyramid.png" alt="Learn by Doing Learning Pyramid and Effectual Reasoning">
+          </div>
+          <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.6; margin-bottom:12px;">
+            Traditional didactic lectures yield an average 24-hour retention rate of only <strong>5%</strong>, whereas 
+            <strong>Practice by Doing (75%)</strong> and <strong>Teaching Others (90%)</strong> establish profound conceptual mastery. 
+            By placing actual surgical power tools and orthopaedic implants into students' hands, abstract biomechanical equations 
+            translate directly into tactile comprehension of stiffness, torsional shear, and bone-implant fixation stability.
+          </p>
+          <div style="background:var(--bg-alt); padding:12px; border-radius:var(--radius-sm); font-size:0.84rem; color:var(--text-main); margin-top:auto;">
+            <strong>Effectual Reasoning:</strong> Students leverage existing laboratory means (M<sub>1</sub>&ndash;M<sub>5</sub>) to explore divergent clinical opportunities (E<sub>1</sub>&ndash;E<sub>5</sub>), thinking like clinician-entrepreneurs rather than passive textbook consumers.
+          </div>
+        </div>
+
+        <!-- Card 2: Dual Pedagogical Cycles: PBL + Simulation -->
+        <div class="pedagogy-card">
+          <div class="pedagogy-card-header">
+            <div class="pedagogy-icon">
+              <i class="bi bi-arrow-repeat"></i>
+            </div>
+            <div>
+              <h3 class="pedagogy-title">Problem-Based &amp; Simulation Cycle</h3>
+              <div style="font-size:0.82rem; color:var(--text-muted);">Kolb's Experiential Learning &amp; Clinical Translation</div>
+            </div>
+          </div>
+          <div class="pedagogy-img-wrap">
+            <img src="ortho_pedagogy_cycle.png" alt="Problem-Based Learning and Simulation-Based Learning Pedagogical Cycles">
+          </div>
+          <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.6; margin-bottom:12px;">
+            The course bridges two interlocking pedagogical loops: 
+            <strong>Problem-Based Learning (PBL)</strong> (Problem Analysis &rarr; Learn Concepts &rarr; Develop Solutions &rarr; Evaluate) 
+            and <strong>Simulation-Based Learning (SBL)</strong>:
+          </p>
+          <ul style="font-size:0.84rem; color:var(--text-muted); line-height:1.55; margin-bottom:0; padding-left:18px;">
+            <li><strong style="color:var(--text-main);">DO (Concrete Experience):</strong> Perform simulated surgical osteotomies, reaming, and fixation.</li>
+            <li><strong style="color:var(--text-main);">OBSERVE (Reflective Observation):</strong> Debrief clinical ergonomics, bone splintering, and fixation pull-out.</li>
+            <li><strong style="color:var(--text-main);">THINK (Abstract Conceptualization):</strong> Model contact mechanics, stress shielding, and osseointegration.</li>
+            <li><strong style="color:var(--text-main);">PLAN (Active Experimentation):</strong> Rapidly prototype novel implant geometries and bench-test stability.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 15-Week Curriculum Table & Schedule -->
+      <div class="curriculum-table-card">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:16px;">
+          <div>
+            <h3 style="font-size:1.3rem; font-weight:800; color:var(--primary); margin:0;">
+              <i class="bi bi-calendar3"></i> 15-Week Course Schedule: BME 5313 Engineering Applications in Orthopedics
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:4px 0 0 0;">
+              Structured weekly progression alternating between biomechanical clinical theory and hands-on surgical demonstrations (A&ndash;G).
+            </p>
+          </div>
+          <a href="ortho_activities_curriculum.png" target="_blank" class="btn btn-outline btn-sm">
+            <i class="bi bi-zoom-in"></i> View Schedule Slide
+          </a>
+        </div>
+
+        <div class="curriculum-table-wrap">
+          <table class="curriculum-table">
+            <thead>
+              <tr>
+                <th style="width:10%;">Week</th>
+                <th style="width:30%;">Clinical &amp; Engineering Topic</th>
+                <th style="width:40%;">In-Class Simulation / Hands-On Activity</th>
+                <th style="width:20%;">Core Competencies</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Week 1</strong></td>
+                <td>Introduction &amp; Virtual Reality Surgery</td>
+                <td><strong style="color:var(--primary);">Virtual Hip Surgery</strong> &middot; VR Headset + Haptic Force-Feedback Arm</td>
+                <td>Surgical robotics, tactile resistance, spatial orientation</td>
+              </tr>
+              <tr>
+                <td><strong>Week 2</strong></td>
+                <td>Sports Injuries &amp; Musculoskeletal Anatomy</td>
+                <td><span class="activity-badge">A</span> <strong>Build Lower Extremity</strong> &middot; Synthetic bones + muscle reconstruction</td>
+                <td>Anatomy, line of action, muscle moment arms</td>
+              </tr>
+              <tr>
+                <td><strong>Week 3</strong></td>
+                <td>Ligament Tears &amp; Joint Stability</td>
+                <td><span class="activity-badge">B</span> <strong>ACL Reconstruction</strong> &middot; Arthroscopic drilling &amp; interference screws</td>
+                <td>Tunnel placement, graft isometry, ligament tensioning</td>
+              </tr>
+              <tr>
+                <td><strong>Week 4</strong></td>
+                <td>Cartilage Degeneration &amp; Osteoarthritis</td>
+                <td><span class="activity-badge">C</span> <strong>Total Hip Replacement (THA)</strong> &middot; Reaming &amp; femoral stem press-fit</td>
+                <td>Femoral neck resection, canal broaching, press-fit stability</td>
+              </tr>
+              <tr>
+                <td><strong>Week 5</strong></td>
+                <td>Bone Fractures &amp; Trauma</td>
+                <td><span class="activity-badge">D</span> <strong>Fracture Fixation</strong> &middot; Compression plating &amp; bicortical screws</td>
+                <td>ORIF plating, stress distribution, interfragmentary compression</td>
+              </tr>
+              <tr>
+                <td><strong>Week 6</strong></td>
+                <td>Spinal Column &amp; Deformity Correction</td>
+                <td><span class="activity-badge">E</span> <strong>Spine Fixation</strong> &middot; Pedicle cannulation &amp; spinal stabilization rods</td>
+                <td>Pedicle screw alignment, rod bending, spinal stability</td>
+              </tr>
+              <tr>
+                <td><strong>Week 7</strong></td>
+                <td>Skeletal Development &amp; Bone Mechanics</td>
+                <td><strong>Material Testing</strong> &middot; Dynamic compression &amp; bending of synthetic bone</td>
+                <td>Young's modulus, yield strength, anisotropy, viscoelasticity</td>
+              </tr>
+              <tr>
+                <td><strong>Week 8</strong></td>
+                <td>Implant Stability &amp; Osseointegration</td>
+                <td><span class="activity-badge">F</span> <strong>Dental Implants</strong> &middot; Osteotomy drills &amp; Versah Osseodensification</td>
+                <td>Primary stability, insertion torque, bone densification burs</td>
+              </tr>
+              <tr>
+                <td><strong>Week 9</strong></td>
+                <td>Custom Implants &amp; Additive Manufacturing</td>
+                <td><span class="activity-badge">G</span> <strong>Mimics Skull Plate</strong> &middot; Patient CT segmentation &amp; 3D printing</td>
+                <td>DICOM CT processing, cranial defect reconstruction, fitment</td>
+              </tr>
+              <tr>
+                <td><strong>Week 10</strong></td>
+                <td>Medical Device Development</td>
+                <td><strong>Opportunity Creation Project</strong> &middot; Clinical problem pitch &amp; prototyping</td>
+                <td>Clinical unmet needs, stakeholder discovery, IP generation</td>
+              </tr>
+              <tr>
+                <td><strong>Week 11</strong></td>
+                <td>Computational Biomechanical Modeling</td>
+                <td><strong>Advanced Seminar</strong> &middot; Finite element modeling of bone-implant interfaces</td>
+                <td>FEA stress distributions, contact mechanics, fatigue</td>
+              </tr>
+              <tr>
+                <td><strong>Week 12</strong></td>
+                <td>Prosthetics &amp; Orthotics</td>
+                <td><strong>Industry Tour &amp; Field Experience</strong> &middot; Orthopedic device manufacturing facility</td>
+                <td>CAD/CAM fabrication, socket biomechanics, patient fitting</td>
+              </tr>
+              <tr>
+                <td><strong>Week 13</strong></td>
+                <td>Injury Prevention &amp; Rehabilitation</td>
+                <td><strong>Clinical Tour &amp; Observation</strong> &middot; Sports medicine &amp; orthopaedic clinic</td>
+                <td>Gait analysis, functional testing, rehabilitation protocols</td>
+              </tr>
+              <tr>
+                <td><strong>Week 14</strong></td>
+                <td>Medical Imaging &amp; Diagnostics</td>
+                <td><strong>Hospital Tour &amp; Radiology Suite</strong> &middot; Clinical MRI, CT, and fluoroscopy</td>
+                <td>Radiation safety, multi-planar reconstruction, pre-op planning</td>
+              </tr>
+              <tr>
+                <td><strong>Week 15</strong></td>
+                <td>Concussion Biomechanics &amp; Synthesis</td>
+                <td><strong>Final Research Seminar &amp; Project Symposium</strong></td>
+                <td>Brain tissue mechanics, helmet standards, regulatory pathway</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Seven Hands-on Surgical Activities Detailed Cards Grid -->
+      <h3 style="font-size:1.3rem; font-weight:800; color:var(--primary); margin-bottom:18px;">
+        <i class="bi bi-tools"></i> Core Surgical Simulation Activities Showcase (A&ndash;G)
+      </h3>
+
+      <div class="ortho-activities-grid">
+        <!-- Activity A -->
+        <div class="ortho-activity-card">
+          <div class="ortho-activity-img">
+            <img src="ortho_simulation_methods.png" alt="Build Lower Extremity Activity A" style="object-position: 70% 80%;">
+          </div>
+          <div class="ortho-activity-body">
+            <div class="ortho-activity-header">
+              <span class="badge" style="background:var(--primary); color:#FFF; font-weight:800; font-size:0.75rem;">ACTIVITY A</span>
+              <span style="font-size:0.78rem; color:var(--text-muted); font-weight:600;">Week 2</span>
+            </div>
+            <h4 class="ortho-activity-title">Build Lower Extremity Musculoskeletal Model</h4>
+            <p class="ortho-activity-desc">
+              Students construct a 1:1 biomechanical lower limb from synthetic skeletal components. Custom-shaped foam muscle bellies (Quadriceps, Hamstrings, IT Band, TFL, Hip Abductors, and Gastrocnemius) are mapped to anatomical insertion coordinates to understand lines of action and joint stabilization.
+            </p>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700;">
+              <i class="bi bi-check-circle-fill"></i> Anatomic lines of action &middot; Muscle moment arms
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity B -->
+        <div class="ortho-activity-card">
+          <div class="ortho-activity-img">
+            <img src="BME_OrthopedicSurgerySimulation.jpg" alt="ACL Reconstruction Activity B" onerror="this.src='ortho_simulation_methods.png'">
+          </div>
+          <div class="ortho-activity-body">
+            <div class="ortho-activity-header">
+              <span class="badge" style="background:var(--primary); color:#FFF; font-weight:800; font-size:0.75rem;">ACTIVITY B</span>
+              <span style="font-size:0.78rem; color:var(--text-muted); font-weight:600;">Week 3</span>
+            </div>
+            <h4 class="ortho-activity-title">Arthroscopic ACL Reconstruction</h4>
+            <p class="ortho-activity-desc">
+              Simulating bone-tendon-bone and hamstring graft reconstruction. Students use tibial aiming guides, cannulated drill bits, and beath pins to drill tibial and femoral tunnels, pass tendon grafts, and achieve aperture fixation with bioabsorbable interference screws.
+            </p>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700;">
+              <i class="bi bi-check-circle-fill"></i> Tunnel isometry &middot; Interference screw torque
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity C -->
+        <div class="ortho-activity-card">
+          <div class="ortho-activity-img">
+            <img src="ortho_simulation_methods.png" alt="Hip Replacement Activity C" style="object-position: 10% 90%;">
+          </div>
+          <div class="ortho-activity-body">
+            <div class="ortho-activity-header">
+              <span class="badge" style="background:var(--primary); color:#FFF; font-weight:800; font-size:0.75rem;">ACTIVITY C</span>
+              <span style="font-size:0.78rem; color:var(--text-muted); font-weight:600;">Week 4</span>
+            </div>
+            <h4 class="ortho-activity-title">Total Hip Arthroplasty (THA)</h4>
+            <p class="ortho-activity-desc">
+              Students perform femoral neck osteotomy, acetabular hemispherical reaming, and press-fit acetabular shell placement. They incrementally broach the femoral intramedullary canal, seat modular titanium stems, and evaluate range-of-motion to prevent dislocation.
+            </p>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700;">
+              <i class="bi bi-check-circle-fill"></i> Press-fit mechanics &middot; Impingement analysis
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity D -->
+        <div class="ortho-activity-card">
+          <div class="ortho-activity-img">
+            <img src="ortho_activities_curriculum.png" alt="Bone Fracture Fixation Activity D" style="object-position: 50% 90%;">
+          </div>
+          <div class="ortho-activity-body">
+            <div class="ortho-activity-header">
+              <span class="badge" style="background:var(--primary); color:#FFF; font-weight:800; font-size:0.75rem;">ACTIVITY D</span>
+              <span style="font-size:0.78rem; color:var(--text-muted); font-weight:600;">Week 5</span>
+            </div>
+            <h4 class="ortho-activity-title">Open Reduction Internal Fixation (ORIF)</h4>
+            <p class="ortho-activity-desc">
+              Students reduce simulated transverse and oblique diaphyseal bone fractures using reduction forceps. They contour dynamic compression plates (DCP), drill pilot holes with eccentric drill guides, gauge depths, and drive bicortical titanium screws to create interfragmentary compression.
+            </p>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700;">
+              <i class="bi bi-check-circle-fill"></i> Compression plating &middot; Bicortical purchase
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity E -->
+        <div class="ortho-activity-card">
+          <div class="ortho-activity-img">
+            <img src="ortho_simulation_methods.png" alt="Spine Fixation Activity E" style="object-position: 85% 15%;">
+          </div>
+          <div class="ortho-activity-body">
+            <div class="ortho-activity-header">
+              <span class="badge" style="background:var(--primary); color:#FFF; font-weight:800; font-size:0.75rem;">ACTIVITY E</span>
+              <span style="font-size:0.78rem; color:var(--text-muted); font-weight:600;">Week 6</span>
+            </div>
+            <h4 class="ortho-activity-title">Posterior Lumbar Spine Stabilization</h4>
+            <p class="ortho-activity-desc">
+              Working on multi-segment synthetic lumbar spines, students identify pedicle entry anatomy, probe pedicle pathways with gear-shift probes, verify bony boundaries, insert polyaxial pedicle screws, contour connecting cobalt-chrome spinal rods, and torque set screws.
+            </p>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700;">
+              <i class="bi bi-check-circle-fill"></i> Pedicle trajectory &middot; Spinal biomechanics
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity F -->
+        <div class="ortho-activity-card">
+          <div class="ortho-activity-img">
+            <img src="BME_DentalImplantsSimulation.jpg" alt="Dental Implants Activity F" onerror="this.src='ortho_simulation_methods.png'">
+          </div>
+          <div class="ortho-activity-body">
+            <div class="ortho-activity-header">
+              <span class="badge" style="background:var(--primary); color:#FFF; font-weight:800; font-size:0.75rem;">ACTIVITY F</span>
+              <span style="font-size:0.78rem; color:var(--text-muted); font-weight:600;">Week 8</span>
+            </div>
+            <h4 class="ortho-activity-title">Dental Implants &amp; Osseodensification</h4>
+            <p class="ortho-activity-desc">
+              Sponsored in collaboration with Versah LLC. Students execute clinical surgical osteotomy protocols under continuous saline irrigation. They compare conventional bone-excavating drills with patented Densah&reg; osseodensification burs, recording insertion torque and primary stability.
+            </p>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700;">
+              <i class="bi bi-check-circle-fill"></i> Insertion torque (N&middot;cm) &middot; Trabecular compaction
+            </div>
+          </div>
+        </div>
+
+        <!-- Activity G -->
+        <div class="ortho-activity-card">
+          <div class="ortho-activity-img">
+            <img src="ortho_activities_curriculum.png" alt="Mimics Skull Plate Activity G" style="object-position: 90% 90%;">
+          </div>
+          <div class="ortho-activity-body">
+            <div class="ortho-activity-header">
+              <span class="badge" style="background:var(--primary); color:#FFF; font-weight:800; font-size:0.75rem;">ACTIVITY G</span>
+              <span style="font-size:0.78rem; color:var(--text-muted); font-weight:600;">Week 9</span>
+            </div>
+            <h4 class="ortho-activity-title">Patient-Specific 3D Cranioplasty Skull Plate</h4>
+            <p class="ortho-activity-desc">
+              Students import DICOM clinical CT patient scans into Materialise Mimics and 3-matic. They threshold bone density, reconstruct complex cranial defects, digitally model a patient-specific cranial repair prosthesis, 3D print the prosthesis, and verify surgical margin congruence.
+            </p>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700;">
+              <i class="bi bi-check-circle-fill"></i> DICOM CT segmentation &middot; Additive manufacturing
+            </div>
+          </div>
+        </div>
+
+        <!-- VR Surgery Card -->
+        <div class="ortho-activity-card">
+          <div class="ortho-activity-img">
+            <img src="ortho_simulation_methods.png" alt="VR Surgery with Haptic Touch" style="object-position: 25% 75%;">
+          </div>
+          <div class="ortho-activity-body">
+            <div class="ortho-activity-header">
+              <span class="badge" style="background:var(--accent); color:#FFF; font-weight:800; font-size:0.75rem;">VIRTUAL REALITY</span>
+              <span style="font-size:0.78rem; color:var(--text-muted); font-weight:600;">Week 1</span>
+            </div>
+            <h4 class="ortho-activity-title">Immersive Virtual Surgery &amp; Haptic Force Feedback</h4>
+            <p class="ortho-activity-desc">
+              Using 3D Systems Touch haptic robotic arms integrated with HTC Vive VR headsets, students experience realistic kinematic resistance when sawing bone, reaming the acetabular cup, or encountering cortical bone break-through, bridging physical and computational modeling.
+            </p>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700;">
+              <i class="bi bi-check-circle-fill"></i> Haptic force feedback &middot; Virtual anatomy
+            </div>
+          </div>
+        </div>
+
+        <!-- Opportunity Creation Project Card -->
+        <div class="ortho-activity-card">
+          <div class="ortho-activity-img">
+            <img src="ortho_clinicians_pbl.png" alt="Clinician-Engineer Opportunity Creation" style="object-position: 20% 50%;">
+          </div>
+          <div class="ortho-activity-body">
+            <div class="ortho-activity-header">
+              <span class="badge" style="background:#059669; color:#FFF; font-weight:800; font-size:0.75rem;">INNOVATION</span>
+              <span style="font-size:0.78rem; color:var(--text-muted); font-weight:600;">Week 10</span>
+            </div>
+            <h4 class="ortho-activity-title">PBL: Clinician-Engineer Opportunity Creation</h4>
+            <p class="ortho-activity-desc">
+              Authentic prompt: <em>"A surgeon has contacted you through the LTU Innovation Center / Centrepolis Accelerator because of your expertise in Biomedical Engineering: Build and Test a new type of Orthopedic Implant."</em> Student teams propose concepts, prototype devices, test biomechanics, and draft FDA 510(k) strategies.
+            </p>
+            <div style="font-size:0.78rem; color:var(--primary); font-weight:700;">
+              <i class="bi bi-check-circle-fill"></i> Clinical translation &middot; FDA &amp; IP strategy
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Industry Partners & Acknowledgements Card -->
+      <div class="partners-highlight-bar">
+        <h4 style="font-size:1.15rem; font-weight:800; color:var(--primary); margin-bottom:14px;">
+          <i class="bi bi-building-check"></i> Industry Collaborators, Clinical Partners &amp; Pedagogical Sponsors
+        </h4>
+        <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.6; margin-bottom:18px;">
+          Funding, surgical instruments, and clinical bone testing materials provided through collaborations with industry innovators 
+          and educational catalyst grants. Teaching resources adapted with Dr. Andrew Gerhart (Lawrence Tech) and Dr. Pat Atkinson (Kettering University).
+        </p>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px;">
+          <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:16px; text-align:center;">
+            <strong style="color:var(--primary); font-size:1rem; display:block;">Versah, LLC</strong>
+            <span style="font-size:0.8rem; color:var(--text-muted);">The Osseodensification Company &middot; Dr. Salah Huwais</span>
+          </div>
+          <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:16px; text-align:center;">
+            <strong style="color:var(--primary); font-size:1rem; display:block;">ROIMD</strong>
+            <span style="font-size:0.8rem; color:var(--text-muted);">Real-World Orthopedic Innovation in Medicine</span>
+          </div>
+          <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:16px; text-align:center;">
+            <strong style="color:var(--primary); font-size:1rem; display:block;">DENSO &middot; Crafting the Core</strong>
+            <span style="font-size:0.8rem; color:var(--text-muted);">Advanced Manufacturing &amp; Instrumentation Grant</span>
+          </div>
+          <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:16px; text-align:center;">
+            <strong style="color:var(--primary); font-size:1rem; display:block;">Centrepolis Accelerator</strong>
+            <span style="font-size:0.8rem; color:var(--text-muted);">LTU Physical Hardware Product Accelerator</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reverse Engineering & Design Process Reflection Activities Section -->
+  <section class="section" id="reverse-engineering">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Entrepreneurial Minded Learning (EML) &middot; Studio Pedagogy</span>
+        <h2 class="section-title">Reverse Engineering &amp; Design Process Reflection Activities</h2>
+        <p class="section-subtitle">
+          Authentic hands-on teardowns, design thinking reflections, and AI-enabled brainstorming modules developed by 
+          <strong>Dr. Eric G. Meyer</strong> and <strong>John Peponis</strong>. Implemented across 
+          <strong>Wearable Technology Design (BME 3113)</strong>, <strong>Introduction to Biomedical Engineering (BME 1002)</strong>, 
+          and the <strong>LTU BME High School Summer Camp</strong>.
+        </p>
+      </div>
+
+      <!-- Quick Action & Resource Banner -->
+      <div class="partners-highlight-bar" style="margin-bottom:30px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+        <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+          <span class="badge" style="background:var(--primary); color:#FFF; padding:6px 14px; border-radius:var(--radius-full); font-weight:700; font-size:0.82rem;">
+            <i class="bi bi-smartwatch"></i> BME 3113 Wearable Tech Studio &middot; BME 1002 &middot; BME Summer Camp
+          </span>
+          <span style="font-size:0.86rem; color:var(--text-muted); font-weight:600;">
+            <i class="bi bi-mortarboard"></i> Taubman Complex &middot; Wearable Technology Innovation Center (WTIC)
+          </span>
+        </div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a href="WearableTechnology_Studio_ReverseEngineering.pdf" target="_blank" class="btn btn-primary btn-sm">
+            <i class="bi bi-file-earmark-pdf-fill"></i> Download Wearable Studio Slides (PDF)
+          </a>
+          <a href="https://lawrencetech.instructure.com/courses/22444/modules/113287" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-sm">
+            <i class="bi bi-box-arrow-up-right"></i> Canvas Introduction Module
+          </a>
+          <a href="https://gemini.google.com/gem/33a41862bd77" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+            <i class="bi bi-stars" style="color:var(--primary);"></i> SCAMPER GenAI Tool
+          </a>
+        </div>
+      </div>
+
+      <!-- Two Core Learning Components: Reflection Discussion Board & In-Class Teardown Activity -->
+      <div class="assignment-container">
+        
+        <!-- Assignment 1: Reflection Discussion Board -->
+        <div class="assignment-card">
+          <div class="assignment-badge-tag">
+            <i class="bi bi-chat-square-quote-fill"></i> Reflection Assignment
+          </div>
+          <h3 class="assignment-title">Reflection Discussion Board: Design Frameworks &amp; Wearable Technology Insights</h3>
+          <div class="assignment-meta-row">
+            <span><i class="bi bi-mortarboard"></i> Course: BME 3113 / BME 1002</span>
+            <span><i class="bi bi-folder-check"></i> Module: <a href="https://lawrencetech.instructure.com/courses/22444/modules/113287" target="_blank" rel="noopener noreferrer" style="color:var(--primary); font-weight:700;">Introduction Module (Canvas #113287)</a></span>
+            <span><i class="bi bi-people-fill"></i> Individual Post &amp; Peer Discussion</span>
+          </div>
+
+          <div class="assignment-prompt-box">
+            <div style="font-weight:700; color:var(--primary); margin-bottom:10px; font-size:0.95rem;">
+              <i class="bi bi-card-text"></i> Official Course Assignment Instructions:
+            </div>
+            <p>
+              "Watch the Fitbit designer interview video, review the 'Design Lessons from Big Tech' and read one recent article from Wearable Technology Insights website that are posted in the <a href="https://lawrencetech.instructure.com/courses/22444/modules/113287" target="_blank" rel="noopener noreferrer" style="color:var(--primary); font-weight:700; text-decoration:underline;">Introduction module</a>.
+            </p>
+            <p>
+              Choose one of the design frameworks that you find relevant to your engineering profession. Create a short discussion post describing how the framework may help with engineering design projects.
+            </p>
+            <p>
+              Briefly describe the Wearable Technology article you read and what you found interesting about this advancement."
+            </p>
+          </div>
+
+          <!-- Curated Design Frameworks Cards -->
+          <div style="margin-top:20px;">
+            <h4 style="font-size:1.05rem; font-weight:800; color:var(--primary); margin-bottom:12px;">
+              <i class="bi bi-diagram-3-fill"></i> Key Design Frameworks Analyzed by Students:
+            </h4>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:14px;">
+              <div style="background:var(--bg-alt); padding:14px; border-radius:var(--radius-md); border:1px solid var(--border-color);">
+                <strong style="color:var(--primary); font-size:0.9rem; display:block; margin-bottom:4px;">1. Human-Centered Design (IDEO)</strong>
+                <span style="font-size:0.82rem; color:var(--text-muted); line-height:1.5; display:block;">
+                  Empathize &rarr; Define &rarr; Ideate &rarr; Prototype &rarr; Test. Prioritizing end-user comfort, psychological adoption, and non-stigmatizing form factors.
+                </span>
+              </div>
+              <div style="background:var(--bg-alt); padding:14px; border-radius:var(--radius-md); border:1px solid var(--border-color);">
+                <strong style="color:var(--primary); font-size:0.9rem; display:block; margin-bottom:4px;">2. Double Diamond Design Model</strong>
+                <span style="font-size:0.82rem; color:var(--text-muted); line-height:1.5; display:block;">
+                  Divergent &amp; convergent phases: Discover (explore problem) &rarr; Define (focus) &rarr; Develop (ideate solutions) &rarr; Deliver (prototype &amp; ship).
+                </span>
+              </div>
+              <div style="background:var(--bg-alt); padding:14px; border-radius:var(--radius-md); border:1px solid var(--border-color);">
+                <strong style="color:var(--primary); font-size:0.9rem; display:block; margin-bottom:4px;">3. FDA Medical Device Design Controls</strong>
+                <span style="font-size:0.82rem; color:var(--text-muted); line-height:1.5; display:block;">
+                  21 CFR 820.30: User Needs &harr; Design Inputs &harr; Design Outputs &harr; Medical Device. Rigorous Design Verification &amp; Validation (V&amp;V).
+                </span>
+              </div>
+              <div style="background:var(--bg-alt); padding:14px; border-radius:var(--radius-md); border:1px solid var(--border-color);">
+                <strong style="color:var(--primary); font-size:0.9rem; display:block; margin-bottom:4px;">4. Lean Hardware Prototyping</strong>
+                <span style="font-size:0.82rem; color:var(--text-muted); line-height:1.5; display:block;">
+                  Build &ndash; Measure &ndash; Learn sprints. Rapidly building breadboards, testing battery life, gathering telemetry, and iterating microcontroller firmware.
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wearable Sensor Landscape Preview Banner -->
+          <div style="margin-top:20px; background:#FFFFFF; border:1px solid var(--border-color); border-radius:var(--radius-md); padding:16px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:12px;">
+              <span style="font-weight:700; font-size:0.92rem; color:var(--primary);">
+                <i class="bi bi-grid-3x3-gap-fill"></i> Wearable Technology Sensor Taxonomy (Slide 2)
+              </span>
+              <a href="wearable_sensors_landscape.png" target="_blank" class="btn btn-outline btn-sm">
+                <i class="bi bi-zoom-in"></i> View Full Taxonomy
+              </a>
+            </div>
+            <div style="height:200px; overflow:hidden; border-radius:var(--radius-sm); border:1px solid var(--border-color); background:#FFFFFF;">
+              <img src="wearable_sensors_landscape.png" alt="Wearable Technology Sensor Landscape" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+            </div>
+            <p style="font-size:0.82rem; color:var(--text-muted); margin:8px 0 0 0;">
+              Categories explored: Activities/Sleep, Force/Pressure/Biometrics, Audio/Video, EMG/EEG, Position/Environment, Nutrition/Metabolites, and Hormones/Biochemistry.
+            </p>
+          </div>
+        </div>
+
+        <!-- Assignment 2: In-Class Activity: Reverse Engineering of a Pedometer -->
+        <div class="assignment-card" style="border-left-color: var(--accent);">
+          <div class="assignment-badge-tag" style="background:rgba(0, 121, 194, 0.12); color:var(--accent);">
+            <i class="bi bi-tools"></i> Hands-On Laboratory Activity
+          </div>
+          <h3 class="assignment-title">In-Class Activity: Reverse Engineering of a "Pedometer"</h3>
+          <div class="assignment-meta-row">
+            <span><i class="bi bi-stopwatch"></i> Duration: 2-Hour In-Class Lab Session</span>
+            <span><i class="bi bi-people"></i> Format: Collaborative Pairs / Teams of 2</span>
+            <span><i class="bi bi-file-earmark-check"></i> Deliverable: Submitted Teardown Worksheet &amp; Process Diagram</span>
+          </div>
+
+          <!-- Materials & Prerequisites Box -->
+          <div style="background:var(--bg-alt); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:18px; margin-bottom:20px;">
+            <h4 style="font-size:0.98rem; font-weight:800; color:var(--primary); margin-bottom:8px;">
+              <i class="bi bi-box-seam-fill"></i> Required Materials &amp; Equipment:
+            </h4>
+            <p style="font-size:0.9rem; color:var(--text-main); margin-bottom:8px;">
+              "You will need a <strong>screwdriver</strong>, the <strong>pedometer</strong> (or some other device from home that you can take apart) and a <strong>camera</strong>. You will need to use your computer to create a parts list, teardown instructions and process diagram of the pedometer components and assembly."
+            </p>
+            <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;">
+              <span class="badge" style="background:#FFFFFF; border:1px solid var(--border-color); padding:5px 10px; border-radius:var(--radius-sm); font-size:0.82rem; color:var(--text-main);">
+                <i class="bi bi-screwdriver"></i> Precision Screwdriver Set
+              </span>
+              <span class="badge" style="background:#FFFFFF; border:1px solid var(--border-color); padding:5px 10px; border-radius:var(--radius-sm); font-size:0.82rem; color:var(--text-main);">
+                <i class="bi bi-smartwatch"></i> Digital Pedometer / Electromechanical Device
+              </span>
+              <span class="badge" style="background:#FFFFFF; border:1px solid var(--border-color); padding:5px 10px; border-radius:var(--radius-sm); font-size:0.82rem; color:var(--text-main);">
+                <i class="bi bi-camera-fill"></i> Camera / Smartphone for Photo Log
+              </span>
+              <span class="badge" style="background:#FFFFFF; border:1px solid var(--border-color); padding:5px 10px; border-radius:var(--radius-sm); font-size:0.82rem; color:var(--text-main);">
+                <i class="bi bi-laptop"></i> Laptop for Parts List, BOM &amp; Diagrams
+              </span>
+            </div>
+          </div>
+
+          <!-- Step 0: Pre-Disassembly Brainstorming Procedure -->
+          <div style="border-left:4px solid #F59E0B; background:rgba(245, 158, 11, 0.08); padding:16px; border-radius:var(--radius-sm); margin-bottom:20px;">
+            <strong style="color:#B45309; font-size:0.92rem; display:block; margin-bottom:6px;">
+              <i class="bi bi-lightbulb-fill"></i> Initial Procedure Checkpoint:
+            </strong>
+            <p style="font-size:0.88rem; color:var(--text-main); margin-bottom:0; line-height:1.6;">
+              "Brainstorm all the components that you expect to find in the device before you take it apart. Write them down and show the instructor to claim your materials."
+            </p>
+          </div>
+
+          <!-- Exemplar Internet Teardown Links -->
+          <div>
+            <h4 style="font-size:0.98rem; font-weight:800; color:var(--primary); margin-bottom:10px;">
+              <i class="bi bi-globe"></i> Exemplar Reverse Engineering Resources &amp; Teardown References:
+            </h4>
+            <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:12px;">
+              Review the following curated Internet references for teardown methodologies, circuit schematic extraction, and component cataloging:
+            </p>
+            <div class="reference-links-grid">
+              <a href="https://lawrencetech.instructure.com/courses/22444/files/6826095?wrap=1" target="_blank" rel="noopener noreferrer" class="reference-chip-card">
+                <div>
+                  <div style="font-weight:700; color:var(--primary);"><i class="bi bi-file-earmark-pdf-fill"></i> Pedometer Teardown Guide</div>
+                  <div style="font-size:0.75rem; color:var(--text-muted);">LTU Canvas Course File (6826095)</div>
+                </div>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+
+              <a href="https://lawrencetech.instructure.com/courses/11978/files/3422802/download?download_frd=1" target="_blank" rel="noopener noreferrer" class="reference-chip-card">
+                <div>
+                  <div style="font-weight:700; color:var(--primary);"><i class="bi bi-download"></i> Download Teardown PDF</div>
+                  <div style="font-size:0.75rem; color:var(--text-muted);">Direct Download Link (3422802)</div>
+                </div>
+                <i class="bi bi-arrow-down-circle"></i>
+              </a>
+
+              <a href="http://diymanufacturing.mit.edu/?page_id=277" target="_blank" rel="noopener noreferrer" class="reference-chip-card">
+                <div>
+                  <div style="font-weight:700; color:var(--primary);"><i class="bi bi-tools"></i> MIT DIY Manufacturing</div>
+                  <div style="font-size:0.75rem; color:var(--text-muted);">Hardware Teardown &amp; DFM Guide</div>
+                </div>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+
+              <a href="http://electronics.howstuffworks.com/gadgets/clocks-watches/digital-clock.htm/printable" target="_blank" rel="noopener noreferrer" class="reference-chip-card">
+                <div>
+                  <div style="font-weight:700; color:var(--primary);"><i class="bi bi-clock-history"></i> HowStuffWorks Digital Clock</div>
+                  <div style="font-size:0.75rem; color:var(--text-muted);">Quartz Crystal &amp; Logic Circuits</div>
+                </div>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+
+              <a href="http://www.electronicecircuits.com/electronic-circuits/cxa1019-fm-radio-circuit-diagram" target="_blank" rel="noopener noreferrer" class="reference-chip-card">
+                <div>
+                  <div style="font-weight:700; color:var(--primary);"><i class="bi bi-broadcast-pin"></i> CXA1019 FM Radio Circuit</div>
+                  <div style="font-size:0.75rem; color:var(--text-muted);">Electronic Schematic Diagram</div>
+                </div>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+
+              <a href="http://www.ifixit.com/Teardown/iPhone+5+Teardown/10525/1" target="_blank" rel="noopener noreferrer" class="reference-chip-card">
+                <div>
+                  <div style="font-weight:700; color:var(--primary);"><i class="bi bi-phone"></i> iFixit iPhone Teardown</div>
+                  <div style="font-size:0.75rem; color:var(--text-muted);">Step-by-Step Industrial Disassembly</div>
+                </div>
+                <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- The 5 Reverse Engineering Steps -->
+          <div style="margin-top:24px;">
+            <h4 style="font-size:1.05rem; font-weight:800; color:var(--primary); margin-bottom:12px;">
+              <i class="bi bi-list-ol"></i> Step-by-Step Reverse Engineering Protocol:
+            </h4>
+            <div class="procedure-steps-list">
+              <div class="procedure-step-row">
+                <div class="step-num-badge">1</div>
+                <div class="step-text">
+                  <div class="step-title">Functional Pre-Check</div>
+                  <div>Check that your device is functional and operating as expected prior to disassembling. Record starting battery voltage or display response.</div>
+                </div>
+              </div>
+
+              <div class="procedure-step-row">
+                <div class="step-num-badge">2</div>
+                <div class="step-text">
+                  <div class="step-title">Sequential Disassembly &amp; Joint Documentation</div>
+                  <div>Document the steps to disassemble and record how each component was connected together (e.g., snap fits, Phillips screws, sonic welds, elastomer zebra strips, wire-bonded IC blobs).</div>
+                </div>
+              </div>
+
+              <div class="procedure-step-row">
+                <div class="step-num-badge">3</div>
+                <div class="step-text">
+                  <div class="step-title">Comprehensive Bill of Materials (BOM)</div>
+                  <div>Produce a complete list of all components and count the number of similar components. Use actual engineering terminology when possible (e.g., cantilevered spring pendulum, conductive rubber contact, FR4 PCB, coin-cell terminal).</div>
+                </div>
+              </div>
+
+              <div class="procedure-step-row">
+                <div class="step-num-badge">4</div>
+                <div class="step-text">
+                  <div class="step-title">Component Function, Cost Estimation &amp; Manufacturing Analysis</div>
+                  <div>Describe each component's engineering function, estimate component costs at 10,000-unit scale, and identify potential commercial suppliers or the likely manufacturing processes (injection molding, stamping, wave soldering).</div>
+                </div>
+              </div>
+
+              <div class="procedure-step-row">
+                <div class="step-num-badge">5</div>
+                <div class="step-text">
+                  <div class="step-title">System Process &amp; Interaction Diagram</div>
+                  <div>Produce a system process diagram illustrating how the pedometer and selected electromechanical components work together: from physical acceleration to pendulum displacement, electrical contact closure, debouncing logic, digital counting register, and LCD multiplexing.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Submitted Deliverables Checklist -->
+          <div style="margin-top:20px; background:var(--bg-alt); padding:16px 20px; border-radius:var(--radius-md); border:1px solid var(--border-color);">
+            <div style="font-weight:700; color:var(--primary); margin-bottom:8px; font-size:0.92rem;">
+              <i class="bi bi-clipboard-check-fill"></i> Submitted Worksheet Requirements Checklist:
+            </div>
+            <ul style="margin:0; padding-left:20px; font-size:0.88rem; color:var(--text-main); line-height:1.6;">
+              <li><strong>Pictures of your disassembly methods:</strong> High-resolution photographs showing casing separation, internal chassis, fasteners, and PCB subassemblies.</li>
+              <li><strong>Components list (BOM):</strong> Itemized table specifying component name, count, material, function, estimated unit price, and fabrication method.</li>
+              <li><strong>Process diagram:</strong> Block flowchart demonstrating how components work together mechanically and electronically to measure and display steps.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI-Enabled Ideation & SCAMPER GenAI Framework Box -->
+      <div class="ai-toolkit-box">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; margin-bottom:12px;">
+          <div>
+            <span class="badge" style="background:var(--primary); color:#FFF; padding:4px 12px; border-radius:var(--radius-full); font-weight:700; font-size:0.75rem;">
+              <i class="bi bi-cpu-fill"></i> AI FLUENCY &amp; GENERATIVE DESIGN
+            </span>
+            <h3 style="font-size:1.3rem; font-weight:800; color:var(--primary); margin:6px 0 2px 0;">
+              SCAMPER Generative AI Ideation &amp; Innovation Toolkit
+            </h3>
+            <div style="font-size:0.86rem; color:var(--text-muted);">
+              From First-Draft Concepts to Divergent Solutions: "Engineer Context, Not Just the Prompt"
+            </div>
+          </div>
+          <a href="https://gemini.google.com/gem/33a41862bd77" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <i class="bi bi-box-arrow-up-right"></i> Launch Custom Gemini GEM
+          </a>
+        </div>
+
+        <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.6; margin-bottom:14px;">
+          In the Wearable Technology Design Studio, students avoid "first idea syndrome" by utilizing the SCAMPER brainstorming technique 
+          augmented with custom Generative AI agents. AI rapidly explores the design space by turning all parameters simultaneously:
+        </p>
+
+        <!-- SCAMPER Letters Grid -->
+        <div class="scamper-letters-grid">
+          <div class="scamper-letter-item">
+            <div class="scamper-big-letter">S</div>
+            <div class="scamper-letter-word">Substitute</div>
+          </div>
+          <div class="scamper-letter-item">
+            <div class="scamper-big-letter">C</div>
+            <div class="scamper-letter-word">Combine</div>
+          </div>
+          <div class="scamper-letter-item">
+            <div class="scamper-big-letter">A</div>
+            <div class="scamper-letter-word">Adapt</div>
+          </div>
+          <div class="scamper-letter-item">
+            <div class="scamper-big-letter">M</div>
+            <div class="scamper-letter-word">Modify</div>
+          </div>
+          <div class="scamper-letter-item">
+            <div class="scamper-big-letter">P</div>
+            <div class="scamper-letter-word">Put to Another Use</div>
+          </div>
+          <div class="scamper-letter-item">
+            <div class="scamper-big-letter">E</div>
+            <div class="scamper-letter-word">Eliminate</div>
+          </div>
+          <div class="scamper-letter-item">
+            <div class="scamper-big-letter">R</div>
+            <div class="scamper-letter-word">Reverse</div>
+          </div>
+        </div>
+
+        <!-- Gemini Prompt Card -->
+        <div class="gemini-prompt-card">
+          <div style="font-weight:700; color:var(--primary); font-size:0.88rem; margin-bottom:6px;">
+            <i class="bi bi-chat-left-dots-fill"></i> SCAMPER GenAI Prompt Template:
+          </div>
+          <code style="display:block; background:var(--bg-alt); padding:10px 14px; border-radius:var(--radius-sm); font-size:0.84rem; color:var(--text-main); font-family:monospace; margin-bottom:8px; border:1px solid var(--border-color);">
+            "I am designing a [device name / category] for a [Wearable Technology / BME Senior Design] course. Here is my design concept so far: [describe initial concept &amp; upload sketch]. Follow the SCAMPER prompts to brainstorm many variations on this design concept."
+          </code>
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; font-size:0.8rem; color:var(--text-muted);">
+            <span>Direct Assistant: <a href="https://gemini.google.com/gem/33a41862bd77" target="_blank" rel="noopener noreferrer" style="color:var(--primary); font-weight:700;">gemini.google.com/gem/33a41862bd77</a></span>
+            <span>Best Practice: Engineer Context &middot; Upload Sketches for Visual Imagination</span>
+          </div>
+        </div>
+
+        <!-- Student Showcase Thumbnails -->
+        <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; margin-top:20px;">
+          <div class="image-box-white" style="height:140px; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); background:#FFFFFF;">
+            <img src="wearable_design_showcase.png" alt="Wearable Design Showcase" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+          </div>
+          <div class="image-box-white" style="height:140px; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); background:#FFFFFF;">
+            <img src="wearable_studio_projects.png" alt="Wearable Studio Projects" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+          </div>
+          <div class="image-box-white" style="height:140px; border-radius:var(--radius-md); overflow:hidden; border:1px solid var(--border-color); background:#FFFFFF;">
+            <img src="wearable_scamper_ai.png" alt="SCAMPER GenAI Tool" style="width:100%; height:100%; object-fit:contain; background:#FFFFFF;">
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -714,6 +1524,14 @@
                 <span><i class="bi bi-file-earmark-pdf-fill"></i> Complete Academic Curriculum Vitae (2026)</span>
                 <i class="bi bi-download"></i>
               </a>
+              <a href="SB3C2020_OrthopedicSurgery_ActiveLearning.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
+                <span><i class="bi bi-heart-pulse-fill" style="color:var(--accent);"></i> SB3C 2020 Orthopedic Surgery Presentation</span>
+                <i class="bi bi-download"></i>
+              </a>
+              <a href="WearableTechnology_Studio_ReverseEngineering.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
+                <span><i class="bi bi-smartwatch" style="color:var(--primary);"></i> Wearable Studio &amp; Reverse Engineering Deck</span>
+                <i class="bi bi-download"></i>
+              </a>
               <a href="LTU_BME_EBL_Brochure.pdf" target="_blank" class="btn btn-outline btn-sm" style="justify-content:space-between;">
                 <span><i class="bi bi-building"></i> LTU Biomedical Engineering &amp; EBL Brochure</span>
                 <i class="bi bi-download"></i>
@@ -752,11 +1570,12 @@
         <div class="footer-col">
           <h5>Curricular Focus</h5>
           <ul class="footer-links">
-            <li><a href="#pillars">Simulation Active Learning (SAL)</a></li>
-            <li><a href="#pillars">Entrepreneurial Minded Learning (EML)</a></li>
-            <li><a href="#pillars">Active Collaborative Learning (ACL)</a></li>
-            <li><a href="#pillars">Project-Based Learning (PBL)</a></li>
-            <li><a href="#pillars">Makerspace &amp; Studio Pedagogy</a></li>
+            <li><a href="#pillars">Pedagogical Framework &amp; Pillars</a></li>
+            <li><a href="#ortho-sim">Orthopedic Surgery Demonstrations</a></li>
+            <li><a href="#reverse-engineering">Reverse Engineering &amp; Wearables</a></li>
+            <li><a href="#simulations">Interactive Web Simulations</a></li>
+            <li><a href="#keen">KEEN Educational Modules</a></li>
+            <li><a href="#posters">Student Research Posters</a></li>
           </ul>
         </div>
         
