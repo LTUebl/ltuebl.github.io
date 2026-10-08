@@ -57,7 +57,7 @@ function renderSimulations(sims) {
   if (!container) return;
   
   container.innerHTML = sims.map(sim => `
-    <article class="sim-card" data-id="${sim.id}">
+    <article class="sim-card" data-id="${sim.id}" data-category="${sim.category || 'all'}">
       <div class="sim-card-image" style="background:#FFFFFF;">
         <img src="${sim.image}" alt="${sim.title}" loading="lazy" style="background:#FFFFFF; object-fit:contain;" onerror="this.src='EBL_Home.png'">
         <span class="sim-card-badge">${sim.badge}</span>
@@ -223,6 +223,16 @@ function renderPublications(pubsObj) {
 
 // Filtering & Searching Logic
 function initFiltersAndSearch() {
+  // Simulations Filtering
+  const simFilterBtns = document.querySelectorAll('#simFilterPills .filter-btn');
+  simFilterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      simFilterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      filterSimulations();
+    });
+  });
+
   // KEEN Filtering
   const keenFilterBtns = document.querySelectorAll('#keenFilterPills .filter-btn');
   const keenSearch = document.getElementById('keenSearch');
@@ -254,6 +264,28 @@ function initFiltersAndSearch() {
   if (posterSearch) {
     posterSearch.addEventListener('input', filterPosters);
   }
+}
+
+function filterSimulations() {
+  const activeBtn = document.querySelector('#simFilterPills .filter-btn.active');
+  const category = activeBtn ? activeBtn.getAttribute('data-filter') : 'all';
+  const cards = document.querySelectorAll('.sim-card');
+  let visibleCount = 0;
+  
+  cards.forEach(card => {
+    const cardCat = card.getAttribute('data-category') || '';
+    const matchCategory = (category === 'all') || (cardCat.toLowerCase().includes(category.toLowerCase()));
+    
+    if (matchCategory) {
+      card.style.display = 'flex';
+      visibleCount++;
+    } else {
+      card.style.display = 'none';
+    }
+  });
+  
+  const countBadge = document.getElementById('simCountBadge');
+  if (countBadge) countBadge.textContent = `${visibleCount} modules shown`;
 }
 
 function filterKeenCards() {
