@@ -1,5 +1,5 @@
 /* LTU Experimental Biomechanics Laboratory (EBL) - Overview & Curricular Showcase
-   Designed for LTUebl GitHub Pages | Dr. Eric G. Meyer, PhD
+   Designed for LTUebl GitHub Pages | Eric G. Meyer, PhD
    Colors: Official Lawrence Technological University Blue & White Palette
 */
 
@@ -489,6 +489,14 @@ a:hover {
   font-size: 0.88rem;
   color: var(--text-muted);
   margin-top: 4px;
+}
+
+.hero-card-title-sub {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-top: 2px;
+  line-height: 1.35;
 }
 
 .hero-stats-grid {
@@ -1457,6 +1465,15 @@ a:hover {
   object-position: top center;
   transition: transform 0.4s ease;
   background: #FFFFFF;
+}
+
+.poster-card[data-id="poster-02"] .poster-thumbnail-wrap {
+  height: 420px;
+}
+
+.poster-card[data-id="poster-02"] .poster-thumbnail-wrap img {
+  object-fit: contain;
+  object-position: center;
 }
 
 .poster-card:hover .poster-thumbnail-wrap img {

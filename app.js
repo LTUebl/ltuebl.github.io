@@ -1,5 +1,5 @@
 // LTU Experimental Biomechanics Laboratory (EBL) Overview Website App Script
-// Interactive rendering, filtering, searching, and preview modals
+// Interactive rendering, filtering, searching and preview modals
 
 document.addEventListener('DOMContentLoaded', () => {
   const data = window.EBL_DATA || {};
@@ -23,32 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
   initNavigation();
 });
 
-// Theme Management
+// Theme Management - Default Light Mode
 function initTheme() {
-  const themeToggle = document.getElementById('themeToggle');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const savedTheme = localStorage.getItem('ebl_theme') || (prefersDark ? 'dark' : 'light');
-  
-  document.documentElement.setAttribute('data-theme', savedTheme);
-  updateThemeIcon(savedTheme);
-  
-  if (themeToggle) {
-    themeToggle.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme') || 'light';
-      const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('ebl_theme', next);
-      updateThemeIcon(next);
-    });
-  }
-}
-
-function updateThemeIcon(theme) {
-  const btn = document.getElementById('themeToggle');
-  if (!btn) return;
-  btn.innerHTML = theme === 'dark' 
-    ? '<i class="bi bi-sun-fill" title="Switch to light mode"></i>' 
-    : '<i class="bi bi-moon-stars-fill" title="Switch to dark mode"></i>';
+  document.documentElement.setAttribute('data-theme', 'light');
+  localStorage.setItem('ebl_theme', 'light');
 }
 
 // Render Interactive Simulations
@@ -410,7 +388,7 @@ window.openPosterModal = function(posterId) {
     bodyEl.innerHTML = `
       <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 24px; align-items: start;">
         <div style="background: #FFFFFF; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); border:1px solid var(--border-color); text-align: center; padding: 6px;">
-          <img src="${poster.thumbnail}" alt="${poster.title}" style="width: 100%; max-height: 520px; object-fit: contain; display: block; background:#FFFFFF;" onerror="this.src='EBL_Research.png'">
+          <img src="${poster.thumbnail}" alt="${poster.title}" style="width: 100%; max-height: ${poster.id === 'poster-02' ? '750px' : '520px'}; object-fit: contain; display: block; background:#FFFFFF;" onerror="this.src='EBL_Research.png'">
         </div>
         <div style="display: flex; flex-direction: column; gap: 14px;">
           <div>
