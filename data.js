@@ -154,6 +154,101 @@ window.EBL_DATA = {
       "Mastery score tracking for self-regulated learning"
     ],
     "image": "BME_IntrotoBiomechanics.png"
+  },
+  {
+    "id": "squat-detector",
+    "title": "Squat Biomechanics & Form Analyzer v2.0",
+    "subtitle": "2D/3D Landmark Fusion & OpenSim Ground-Truth Validation",
+    "course": "BME 3303 / BME 3301 Biomechanics Lab",
+    "badge": "SAL & Computer Vision",
+    "category": "biomechanics",
+    "url": "https://ltuebl.github.io/Squat-Detector/",
+    "repo": "https://github.com/LTUebl/Squat-Detector",
+    "icon": "bi-camera-video",
+    "description": "Browser-based markerless squat kinematic diagnostic platform powered by MediaPipe Pose (2D pixel and 3D metric world landmark fusion), Plotly.js angle trajectories and validated against 60 Hz OpenSim musculoskeletal inverse kinematics (LaiUhlrich2022).",
+    "features": [
+      "Bilateral 2D/3D foreshortening and aspect-ratio compensation",
+      "5 real-time joint kinematic streams (Knee, Hip, Trunk, Ankle and Valgus)",
+      "Coupled multi-joint squat state machine and form error diagnostics",
+      "Synchronized frame-by-frame replay studio with OpenSim GT overlay"
+    ],
+    "image": "squat_detector_thumb.jpg"
+  },
+  {
+    "id": "tensegrity-model",
+    "title": "3D Cellular Tensegrity Model Simulator",
+    "subtitle": "6 Struts + 24 Cables Cytoskeletal Equilibrium & Prestress Stiffening",
+    "course": "BME 5313 / 6303 Cellular Mechanobiology",
+    "badge": "SAL & Mechanobiology",
+    "category": "biomechanics",
+    "url": "https://ltuebl.github.io/TensegrityModelSimulation/",
+    "repo": "https://github.com/LTUebl/TensegrityModelSimulation",
+    "icon": "bi-boxes",
+    "description": "Interactive 3D icosahedral cytoskeletal tensegrity simulation based on Donald Ingber's cellular paradigm and BME 5313 Lecture 10. Computes nonlinear force equilibrium across 24 actin cables and 6 microtubule struts, demonstrating continuum prestress stiffening (E vs. P).",
+    "features": [
+      "Live 3D kinematics and force balance across symmetry families AB, AC and BC",
+      "Continuum energy homogenization and HASM cell validation (Wang et al. 2001)",
+      "Pharmacological perturbation engine (Histamine, Cytochalasin D and Blebbistatin)",
+      "Interactive 3D canvas with FBD vectors, octant view and KaTeX derivations"
+    ],
+    "image": "tensegrity_model_thumb.png"
+  },
+  {
+    "id": "adl-tracker",
+    "title": "24-Hour ADL Quantified Self Tracker",
+    "subtitle": "Activities of Daily Living Logging, Timers & Visual Analytics",
+    "course": "BME 1002 / BME 3113 Wearable Tech Design",
+    "badge": "EML & Quantified Self",
+    "category": "wearables",
+    "url": "https://ltuebl.github.io/ActivitiesDailyLiving_App/",
+    "repo": "https://github.com/LTUebl/ActivitiesDailyLiving_App",
+    "icon": "bi-stopwatch",
+    "description": "Mobile-first privacy-preserving Quantified Self web application for students to track and analyze 24-hour Activities of Daily Living. Automates the standard course worksheet with one-tap duration logging, persistent background timers and multi-format CSV/PDF export.",
+    "features": [
+      "16 core ADL categories with custom quick-log duration chips",
+      "Persistent localStorage background timers (runs while phone is locked)",
+      "Exact course QS worksheet table with print-optimized single-page PDF",
+      "24-hour day breakdown ring chart, activity ranking and cross-device JSON"
+    ],
+    "image": "adl_tracker_thumb.jpg"
+  },
+  {
+    "id": "openless-interactive",
+    "title": "OpenLESS: Jump-Landing & ACL Injury Risk Evaluation",
+    "subtitle": "Automated Markerless Motion Capture LESS Screening",
+    "course": "BME 3303 / BME 3301 / BME 4903",
+    "badge": "SAL & Clinical Screening",
+    "category": "biomechanics",
+    "url": "https://ltuebl.github.io/openless-interactive/",
+    "repo": "https://github.com/LTUebl/openless-interactive",
+    "icon": "bi-shield-check",
+    "description": "Interactive web platform automating the 19-criteria Landing Error Scoring System (LESS) for ACL injury risk evaluation using markerless motion capture (OpenCap) and OpenSim kinematics, based on Stanford's OpenLESS algorithm (Turner et al. 2024).",
+    "features": [
+      "Synchronized 60 Hz dual-camera (sagittal and angled) video player",
+      "Automated 19-criteria LESS scorecard with clinical rationale drawers",
+      "Comparative analysis: Stepoff-Leaning (Low Risk) vs. Upright (High Risk)",
+      "In-browser client-side evaluator for custom OpenCap .trc and .mot files"
+    ],
+    "image": "openless_interactive_thumb.jpg"
+  },
+  {
+    "id": "jump-landing-opensim",
+    "title": "Jump Landing Biomechanics & Muscle Force Analysis",
+    "subtitle": "OpenSim Inverse Kinetics & Quadriceps Forces across Postures",
+    "course": "BME 4903 Advanced Kinesiology / BME 3303",
+    "badge": "SAL & Musculoskeletal Modeling",
+    "category": "biomechanics",
+    "url": "https://ltuebl.github.io/jump-landing-opensim/",
+    "repo": "https://github.com/LTUebl/jump-landing-opensim",
+    "icon": "bi-graph-up-arrow",
+    "description": "Interactive web dashboard and Google Colab pipeline quantifying vertical ground reaction forces (vGRF) and individual knee extensor forces (vaslat, vasmed, vasint and recfem) during jump landing, contrasting forward trunk lean vs. upright landing strategies.",
+    "features": [
+      "Automated single-cycle event detection (Apex, Initial Contact and Peak Flexion)",
+      "Inverse kinetics: vGRF peak, loading rate (3x reduction) and vertical impulse",
+      "Individual quadriceps muscle forces and biarticular rectus femoris mechanics",
+      "Interactive Plotly dashboard with auto-exporting Excel and high-res figures"
+    ],
+    "image": "jump_landing_opensim_thumb.png"
   }
 ],
     keenCards: [
